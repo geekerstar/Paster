@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://gitee.com/aiexporter/paster/raw/master/logo.png" alt="Paster Logo" width="128" height="128"/>
+  <img src="https://gitee.com/aiexporter/paster/raw/master/image/logo.png" alt="Paster Logo" width="128" height="128"/>
   <h1>Paster - 剪贴板增强工具</h1>
   <p><strong>轻量 · 高效 · 隐私安全 · 完全免费</strong></p>
   <p>

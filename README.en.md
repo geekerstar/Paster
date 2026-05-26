@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://gitee.com/aiexporter/paster/raw/master/logo.png" alt="Paster Logo" width="128" height="128"/>
+  <img src="https://gitee.com/aiexporter/paster/raw/master/image/logo.png" alt="Paster Logo" width="128" height="128"/>
   <h1>Paster - Clipboard Manager</h1>
   <p><strong>Lightweight · Efficient · Privacy-First · Completely Free</strong></p>
   <p>
