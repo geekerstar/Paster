@@ -28,6 +28,9 @@ Instantly search through your entire clipboard history. Supports fuzzy match.
 ### ❤️ Favorites & Pinning
 Pin important items to keep them always on top, safe from being cleared.
 
+### 🖱️ Drag & Pin
+Drag any clipboard card (text, image, code, link) directly onto your desktop as a sticky note. One drag to pin, always visible.
+
 ### 📷 Screenshot Tool
 Built-in screenshot utility with:
 - Full-screen / Rectangle capture
