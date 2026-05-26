@@ -134,12 +134,6 @@
 
 ---
 
-## 📄 开源协议
-
-本项目基于 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 协议开源。
-
----
-
 <div align="center">
   <p>如果 Paster 对你有帮助，欢迎 ⭐ Star 支持！</p>
 </div>

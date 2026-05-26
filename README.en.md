@@ -134,12 +134,6 @@ All hotkeys are fully customizable in Settings.
 
 ---
 
-## 📄 License
-
-This project is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
-
----
-
 <div align="center">
   <p>If Paster helps you, please ⭐ Star the repo!</p>
 </div>
