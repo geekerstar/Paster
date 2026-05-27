@@ -108,7 +108,6 @@
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="45%" alt="设置页面"/>
 
-**更新与关注**
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="45%" alt="设置页面2"/>
 
