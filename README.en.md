@@ -15,6 +15,13 @@
   </p>
 </div>
 
+<div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
+  <p><strong>🎉 This software is completely free and forever — built with love, updated with passion!🎉 </strong></p>
+  <p><strong>If you find it useful, don't forget to ⭐ Star the repo!</strong></p>
+  <p><strong>Scan to follow our WeChat official account for the latest updates, tutorials & more desktop productivity tools.</strong></p>
+  <p><strong>Bug reports & feature requests are always welcome — let's make the best clipboard tool together!</strong></p>
+</div>
+
 ---
 
 ## 📋 Features
@@ -27,6 +34,9 @@ Instantly search through your entire clipboard history. Supports fuzzy match.
 
 ### ❤️ Favorites & Pinning
 Pin important items to keep them always on top, safe from being cleared.
+
+### ⌨️ Quick Insert
+Press `Ctrl + 3` to open the Quick Insert panel. Pick any text entry from your history and send it directly to the current input field — no paste overwrite needed.
 
 ### 🖱️ Drag & Pin
 Drag any clipboard card (text, image, code, link) directly onto your desktop as a sticky note. One drag to pin, always visible.
@@ -46,6 +56,7 @@ Pin screenshots to your desktop with:
 ### ⌨️ Global Hotkeys
 - `Ctrl + 1` — Show/Hide main window (customizable)
 - `Ctrl + 2` — Launch screenshot (customizable)
+- `Ctrl + 3` — Quick Insert text (customizable)
 
 ### 🌓 Dark Theme
 One-click toggle between light and dark themes.
@@ -82,17 +93,23 @@ Edit text, links, and code entries directly.
 **Desktop Sticky Notes**
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="90%" alt="Desktop Stickies"/>
 
-**Settings**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="90%" alt="Settings"/>
-
-**General Config**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE.png" width="90%" alt="General Config"/>
-
-**Features**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D.png" width="90%" alt="Features"/>
-
 **Screenshot Tool**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="90%" alt="Screenshot Tool"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="90%" alt="Screenshot Tool"/>
+
+**Quick Insert Mode ①**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="90%" alt="Quick Insert 1"/>
+
+**Quick Insert Mode ②**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F2.png" width="90%" alt="Quick Insert 2"/>
+
+**Settings Page**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="90%" alt="Settings Page"/>
+
+**Settings — Update & Follow**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="90%" alt="Settings 2"/>
+
+**Hotkey Configuration**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="90%" alt="Hotkey Config"/>
 
 </div>
 
@@ -112,6 +129,7 @@ Download the latest release from [**Releases**](https://gitee.com/aiexporter/pas
 |--------|--------|
 | `Ctrl + 1` | Show/Hide main window |
 | `Ctrl + 2` | Launch screenshot |
+| `Ctrl + 3` | Quick Insert text |
 | `Esc` | Close screenshot / Close sticky note |
 
 All hotkeys are fully customizable in Settings.
@@ -134,6 +152,16 @@ All hotkeys are fully customizable in Settings.
 | **CMake** | Build system |
 | **QHotkey** | Global hotkey registration |
 | **Windows API** | Screenshots & system interaction |
+
+---
+
+## 📢 Follow Us
+
+<div align="center">
+  <img src="https://gitee.com/aiexporter/paster/raw/master/image/weixin.png" width="240" alt="WeChat QR Code"/>
+  <p><strong>Scan to follow our WeChat official account</strong></p>
+  <p>Get latest release notifications, feature updates & dev news</p>
+</div>
 
 ---
 

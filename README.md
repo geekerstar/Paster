@@ -15,6 +15,13 @@
   </p>
 </div>
 
+<div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
+  <p><strong>🎉 本软件永久免费使用，纯为爱发电持续更新！🎉 </strong></p>
+  <p><strong>觉得好用别忘了 ⭐ Star 支持一下！</strong></p>
+  <p><strong>欢迎大家关注公众号【边缘计算组态仿真软件】，第一时间获取最新版本更新、实用教程与更多桌面效率工具。</strong></p>
+  <p><strong>使用中遇到 Bug、功能建议都欢迎随时留言反馈，用心优化打磨更好用的剪贴板工具！</strong></p>
+</div>
+
 ---
 
 ## 📋 功能特性
@@ -27,6 +34,9 @@
 
 ### ❤️ 收藏置顶
 重要内容一键收藏，始终置顶不被清除。
+
+### ⌨️ 快速插入文本
+按下 `Ctrl + 3` 呼出快速插入面板，从历史文本列表中一键选取并发送到当前输入框，无需粘贴覆盖。
 
 ### 🖱️ 拖拽贴图
 剪贴板卡片支持直接拖拽到桌面上作为贴图，文字、图片、代码任意内容均可一键 Pin 到桌面，随时查看。
@@ -46,6 +56,7 @@
 ### ⌨️ 全局快捷键
 - `Ctrl + 1` — 呼出/隐藏主窗口（可自定义）
 - `Ctrl + 2` — 启动截图（可自定义）
+- `Ctrl + 3` — 快速插入文本（可自定义）
 
 ### 🌓 深色主题
 明暗双主题一键切换，保护视力，适配不同使用环境。
@@ -82,17 +93,23 @@
 **桌面贴图**
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="90%" alt="桌面贴图"/>
 
-**设置页面**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="90%" alt="设置页面"/>
-
-**通用配置**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E9%80%9A%E7%94%A8%E9%85%8D%E7%BD%AE.png" width="90%" alt="通用配置"/>
-
-**功能介绍**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D.png" width="90%" alt="功能介绍"/>
-
 **截图工具**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="90%" alt="截图工具"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="90%" alt="截图工具"/>
+
+**快速插入模式①**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="90%" alt="快速插入模式1"/>
+
+**快速插入模式②**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F2.png" width="90%" alt="快速插入模式2"/>
+
+**设置页面**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="90%" alt="设置页面"/>
+
+**设置页面——更新与关注**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="90%" alt="设置页面2"/>
+
+**快捷键配置**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="90%" alt="快捷键配置"/>
 
 </div>
 
@@ -112,6 +129,7 @@
 |--------|------|
 | `Ctrl + 1` | 显示/隐藏主窗口 |
 | `Ctrl + 2` | 启动截图 |
+| `Ctrl + 3` | 快速插入文本 |
 | `Esc` | 关闭截图 / 关闭贴图 |
 
 所有快捷键均可在设置页面自定义修改。
@@ -134,6 +152,16 @@
 | **CMake** | 构建系统 |
 | **QHotkey** | 全局快捷键注册 |
 | **Windows API** | 截图与系统交互 |
+
+---
+
+## 📢 关注我们
+
+<div align="center">
+  <img src="https://gitee.com/aiexporter/paster/raw/master/image/weixin.png" width="240" alt="微信公众号二维码"/>
+  <p><strong>扫码关注公众号【边缘计算组态仿真软件】</strong></p>
+  <p>获取最新版本通知、功能更新与开发动态</p>
+</div>
 
 ---
 
