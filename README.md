@@ -174,30 +174,37 @@ Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
 <div align="center">
 
 **浅色主题**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="浅色主题"/>
 
 **深色主题**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="深色主题"/>
 
 **桌面贴图**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="80%" alt="桌面贴图"/>
 
 **截图工具**　　　
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="45%" alt="截图工具"/>
 
 **截图OCR**
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E6%88%AA%E5%9B%BEOCR.png" width="45%" alt="截图OCR"/>
 
 **快速插入模式**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="45%" alt="快速插入模式1"/>
 
 **设置页面**　　
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="45%" alt="设置页面"/>
 
-**更新与关注**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="45%" alt="设置页面2"/>
 
 **快捷键配置**
+
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="70%" alt="快捷键配置"/>
 
 </div>
