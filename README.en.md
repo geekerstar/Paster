@@ -85,31 +85,30 @@ Edit text, links, and code entries directly.
 <div align="center">
 
 **Light Theme**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="90%" alt="Light Theme"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Light Theme"/>
 
 **Dark Theme**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="90%" alt="Dark Theme"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Dark Theme"/>
 
 **Desktop Sticky Notes**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="90%" alt="Desktop Stickies"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="80%" alt="Desktop Stickies"/>
 
-**Screenshot Tool**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="90%" alt="Screenshot Tool"/>
+<br>
 
-**Quick Insert Mode ①**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="90%" alt="Quick Insert 1"/>
+**Screenshot Tool**　　　**Quick Insert**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="45%" alt="Screenshot Tool"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="45%" alt="Quick Insert"/>
 
-**Quick Insert Mode ②**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F2.png" width="90%" alt="Quick Insert 2"/>
+<br>
 
-**Settings Page**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="90%" alt="Settings Page"/>
+**Settings**　　　**Update & Follow**
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="45%" alt="Settings"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="45%" alt="Settings 2"/>
 
-**Settings — Update & Follow**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="90%" alt="Settings 2"/>
+<br>
 
 **Hotkey Configuration**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="90%" alt="Hotkey Config"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="70%" alt="Hotkey Config"/>
 
 </div>
 
