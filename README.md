@@ -10,7 +10,7 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.0.1-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.0.9-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
@@ -185,27 +185,25 @@ Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/3pin%E5%88%B0%E6%A1%8C%E9%9D%A2.png" width="80%" alt="桌面贴图"/>
 
-**截图工具**　　　
+| **截图工具** | **截图OCR** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="100%" alt="截图工具"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E6%88%AA%E5%9B%BEOCR.png" width="100%" alt="截图OCR"/> |
 
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7.png" width="45%" alt="截图工具"/>
+| **快速插入模式** | **快速插入模式** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="100%" alt="快速插入模式1"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F2.png" width="100%" alt="快速插入模式2"/> |
 
-**截图OCR**
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E6%88%AA%E5%9B%BEOCR.png" width="45%" alt="截图OCR"/>
-
-**快速插入模式**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%A8%A1%E5%BC%8F1.png" width="45%" alt="快速插入模式1"/>
-
-**设置页面**　　
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="45%" alt="设置页面"/>
-
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="45%" alt="设置页面2"/>
+| **设置页面** | **设置页面** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A2.png" width="100%" alt="设置页面"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E8%AE%BE%E7%BD%AE%E9%A1%B5%E9%9D%A22.png" width="100%" alt="设置页面2"/> |
 
 **快捷键配置**
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%85%8D%E7%BD%AE.png" width="70%" alt="快捷键配置"/>
+
+**识别后将文字显示到图片**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/10%E8%AF%86%E5%88%AB%E5%90%8E%E5%B0%86%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%88%B0%E5%9B%BE%E7%89%87.png" width="80%" alt="识别后将文字显示到图片"/>
 
 </div>
 
@@ -253,7 +251,21 @@ Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
 
 ## 📜 更新日志
 
-### v1.0.8（最新）
+### v1.0.9（最新）
+**新增功能：**
+- 设置界面样式布局调整
+- 卡片保存条数新增不限制选项
+- 图片类型的卡片增加右键OCR功能
+- OCR识别结果弹窗支持像卡片一样固定到桌面
+- OCR识别结果弹窗支持同时出现多个且支持拖拽和缩放
+- 美化OCR识别结果框和卡片组里拖拽出来的新卡片的样式
+- 截图后Pin到桌面的图片支持右键OCR识别
+- 增加截图并OCR识别文字后，将文字显示到图片对应位置的功能（默认关闭）
+- 右下角托盘图标右键功能优化，增加若干选项
+
+---
+
+### v1.0.8
 感谢小红书用户提出的OCR需求，现已实现并集成到本软件中，全程离线识别，隐私安全有保障。
 
 **新增功能：**
@@ -362,6 +374,31 @@ Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
   <img src="https://gitee.com/aiexporter/paster/raw/master/image/weixin.png" width="240" alt="微信公众号二维码"/>
   <p><strong>扫码关注公众号【边缘计算组态仿真软件】</strong></p>
   <p>获取最新版本通知、功能更新与开发动态</p>
+</div>
+
+---
+
+## ☕ 打赏支持
+
+<div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
+  <p><strong>🎉 本软件永久免费使用，纯为爱发电持续更新！🎉 </strong></p>
+  <p><strong>如果 Paster 对你有帮助，欢迎扫码请我喝杯咖啡 ☕，你的支持是我持续更新的动力！</strong></p>
+  <p><strong>所有功能完全免费，打赏仅为自愿支持，感谢每一份心意 ❤️</strong></p>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://gitee.com/aiexporter/paster/raw/master/image/wx.png" width="240" alt="微信支付"/>
+        <p><strong>微信扫码打赏</strong></p>
+      </td>
+      <td align="center">
+        <img src="https://gitee.com/aiexporter/paster/raw/master/image/zfb.png" width="240" alt="支付宝"/>
+        <p><strong>支付宝扫码打赏</strong></p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
