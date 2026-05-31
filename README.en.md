@@ -16,15 +16,15 @@
   </p>
 </div>
 
+<div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
+  <strong>🔥 v1.1.1 Released: Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong>
+</div>
+
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
   <p><strong>🎉 This software is completely free and forever — built with love, updated with passion! 🎉</strong></p>
   <p><strong>If you find it useful, don't forget to ⭐ Star the repo!</strong></p>
   <p><strong>Scan to follow our WeChat official account for the latest updates, tutorials & more desktop productivity tools.</strong></p>
   <p><strong>Bug reports & feature requests are always welcome — let's make the best clipboard tool together!</strong></p>
-</div>
-
-<div align="center" style="background:linear-gradient(135deg, #f59e0b, #d97706);border-radius:8px;padding:10px 16px;margin:12px 0;">
-  <p style="margin:0;font-size:15px;color:#fff;"><strong>🔥 v1.1.1 Released: Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong></p>
 </div>
 
 ---

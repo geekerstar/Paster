@@ -15,15 +15,15 @@
   </p>
 </div>
 
+<div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
+  <strong>🚀 v1.1.1 新版发布：新增屏幕录制 / 快捷短语输入 / 截图工具全面增强，立即下载体验！</strong>
+</div>
+
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
   <p><strong>🎉 本软件永久免费使用，纯为爱发电持续更新！🎉 </strong></p>
   <p><strong>觉得好用别忘了 ⭐ Star 支持一下！</strong></p>
   <p><strong>欢迎大家关注公众号【边缘计算组态仿真软件】，第一时间获取最新版本更新、实用教程与更多桌面效率工具。</strong></p>
   <p><strong>使用中遇到 Bug、功能建议都欢迎随时留言反馈，用心优化打磨更好用的剪贴板工具！</strong></p>
-</div>
-
-<div align="center" style="background:linear-gradient(135deg, #f59e0b, #d97706);border-radius:8px;padding:10px 16px;margin:12px 0;">
-  <p style="margin:0;font-size:15px;color:#fff;"><strong>🔥 v1.1.1 新版发布：新增屏幕录制 / 快捷短语输入 / 截图工具全面增强，立即下载体验！</strong></p>
 </div>
 
 ---
