@@ -330,8 +330,8 @@ Download the latest release for your platform from [**Releases**](https://gitee.
 
 **System Requirements:**
 - **Windows:** Windows 10 / Windows 11
-- **Linux:** x86_64 architecture, X11 display server (recommended)
-- **macOS:** macOS 12.0+, supports both Intel and Apple Silicon
+- **Linux:** Ubuntu 24.04+ x86_64 only. ARM architecture is not currently supported — contact the author if you need an ARM build. Due to limited resources, Windows version is the primary focus
+- **macOS:** Apple Silicon (M-series) only. Intel Macs are not currently supported. Due to limited resources, please contact the author if you encounter any bugs
 
 ---
 

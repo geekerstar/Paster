@@ -355,8 +355,8 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 
 **系统要求：**
 - **Windows：** Windows 10 / Windows 11
-- **Linux：** x86_64 架构，X11 显示服务器（推荐）
-- **macOS：** macOS 12.0+，Intel 和 Apple Silicon 均支持
+- **Linux：** 仅支持 Ubuntu 24.04+ x86_64 版本，ARM 架构暂不支持，如有需要请联系作者编译。精力有限，优先维护 Windows 版本
+- **macOS：** 仅支持 Apple Silicon（M 芯片）版本，Intel 版本暂不支持。精力有限，如遇问题请联系作者反馈
 
 ---
 
