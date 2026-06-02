@@ -11,9 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.0-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.1.1-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
+</div>
+
+<div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
+  <strong>🔥 v1.1.1 Released: Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -37,19 +41,38 @@ Real-time search with keyword highlighting. Filter by content type or folder.
 
 **Usage:** Type keywords into the search bar at the top of the main window. Results are filtered in real-time with highlighted matches. Supports type filter (All/Text/Link/Code/Image/Files) and folder-based filtering.
 
+### ⌨️ Keyboard Navigation
+Navigate between clipboard cards using keyboard shortcuts — no mouse needed.
+
+**Usage:** In the main window card area, use the following keyboard controls:
+- ←/↑ — Select previous card
+- →/↓ — Select next card
+- Enter — Copy selected card content (text/code) or open link/image/file
+- Space — Preview/close selected card content
+
+The selected card is highlighted with a blue border for easy identification.
+
 ### ❤️ Favorites & Pinning
 Pin important items to keep them always on top, safe from being cleared.
 
 **Usage:** Click the 「❤️」 icon on any card to pin/unpin. Pinned items stay at the top of the list and are preserved when clearing history.
 
 ### 📷 Screenshot Tool
-Full-screen capture with annotations: rectangle, ellipse, arrow, brush, text, undo/redo, and color picker.
+Full-screen capture with rich annotation tools: rectangle, ellipse, arrow, brush, text, mosaic, highlighter, eraser, crop, and more — plus undo/redo and color picker.
 
 **Usage:**
 - **Method 1:** Press global hotkey `Ctrl + 2` (customizable in settings)
 - **Method 2:** Click the camera button in the toolbar
 
-After capture, use the draggable floating toolbar to annotate. Choose from: Copy to clipboard, Save to file, or Pin to desktop.
+After capture, use the toolbar to annotate, supporting:
+- ▸ Rectangle/Ellipse  ▸ Arrow  ▸ Freehand brush  ▸ Text
+- ▸ Mosaic  ▸ Highlighter  ▸ Eraser  ▸ Line tool
+- ▸ Crop  ▸ Resize  ▸ Watermark  ▸ Bubble annotation
+- ▸ Step numbering  ▸ Layer management  ▸ Color picker
+- ▸ Image adjustments: brightness/contrast/grayscale/sepia/invert/opacity
+- ▸ Undo/Redo
+
+Choose from: Copy to clipboard, Save to file, or Pin to desktop.
 
 ### 👁️ OCR Text Recognition
 Recognize text from screenshots or images. Supports Chinese and English.
@@ -72,6 +95,24 @@ Pin screenshots or images to your desktop — zoom, annotate, rotate, flip. Like
 - Continue annotating
 - Click close to remove
 
+### 🎬 Screen Recording
+Record a screen region in GIF / MP4 / WebM format, with optional audio, cursor, and hardware acceleration.
+
+**Usage:**
+- **Method 1:** Press global hotkey `Ctrl + 4` (customizable in settings)
+- **Method 2:** Select 「Start Recording」 from the system tray context menu
+
+Configure recording in Settings → Recording tab:
+- ▸ Format: GIF (default) / MP4 / WebM
+- ▸ FPS: 1~60 FPS (GIF: 10~15 recommended, Video: 24~30)
+- ▸ Capture area: Region selection / Full screen / Active window
+- ▸ Audio: None / Microphone / System sound / Both
+- ▸ GIF settings: loop count, dithering algorithm, encoder, color bits
+- ▸ Video settings: CRF quality, encoding preset, hardware acceleration
+- ▸ Max duration, idle auto-stop
+
+After recording, preview, copy to clipboard, or save to file. MP4/WebM requires FFmpeg — download and install it in Settings → Recording.
+
 ### 🖱️ Drag & Drop
 Drag any clipboard card out of the main window to create an independent floating window — great for multitasking and comparison.
 
@@ -82,13 +123,19 @@ Quickly select text from history and auto-send it to the currently focused input
 
 **Usage:** Press `Ctrl + 3` to open the Quick Insert list. Only text, link, and code entries are shown. Click any entry and Paster simulates keyboard input to type the content into your active window. The popup supports drag-to-move, close button, and ESC to dismiss.
 
+### ⌨️ Quick Phrase Input
+Create custom text phrases and bind global hotkeys — press a hotkey to instantly send preset text at the cursor position.
+
+**Usage:** Go to Settings → Quick Input tab, click 「Add」 to create a new entry. Enter the phrase text, then click the hotkey button to bind a key combination. Save and press the hotkey in any application to auto-input the phrase. Supports multiple entries, each with a different hotkey.
+
 ### 🎯 Global Hotkeys
-Customizable global shortcuts to show/hide the main window, launch screenshot, or quick-insert text.
+Customizable global shortcuts to show/hide the main window, launch screenshot, quick-insert text, or start screen recording.
 
 **Default hotkeys:**
 - `Ctrl + 1` — Show/Hide Paster main window
 - `Ctrl + 2` — Launch screenshot tool
 - `Ctrl + 3` — Quick Insert text
+- `Ctrl + 4` — Start screen recording
 
 **Usage:** Go to Settings → Hotkeys to customize. Supports Ctrl/Alt/Shift + any key. Conflict detection is automatic.
 
@@ -251,13 +298,21 @@ Paster lives in the system tray — runs quietly in the background, one click aw
 |:---:|:---:|
 | <img src="https://gitee.com/aiexporter/paster/raw/master/image/12%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC1.png" width="100%" alt="Quick Insert 1"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/13%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC2.png" width="100%" alt="Quick Insert 2"/> |
 
+**Quick Phrase Input**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/14%E5%BF%AB%E6%8D%B7%E7%9F%AD%E8%AF%AD%E8%BE%93%E5%85%A5.png" width="80%" alt="Quick Phrase Input"/>
+
+**Recording Settings**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/15%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E8%AE%BE%E7%BD%AE.png" width="80%" alt="Recording Settings"/>
+
+**Recording Interface**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E7%95%8C%E9%9D%A2.png" width="80%" alt="Recording Interface"/>
+
 **Help Manual**
 
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/14%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.png" width="80%" alt="Help Manual"/>
-
-**Settings**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/15%E8%AE%BE%E7%BD%AE%E8%8F%9C%E5%8D%95.png" width="80%" alt="Settings"/>
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.png" width="80%" alt="Help Manual"/>
 
 </div>
 
@@ -265,9 +320,18 @@ Paster lives in the system tray — runs quietly in the background, one click aw
 
 ## 📥 Download & Install
 
-Download the latest release from [**Releases**](https://gitee.com/aiexporter/paster/releases), extract the archive, and run. No installation required.
+Download the latest release for your platform from [**Releases**](https://gitee.com/aiexporter/paster/releases).
 
-**System Requirements:** Windows 10 / Windows 11
+| Platform | Package | Notes |
+|----------|---------|-------|
+| **Windows** | `Paser-Setup.exe` | Extract and run, no installation required |
+| **Linux** | `Paster-x86_64.AppImage` | Set executable permission and run (see guide below) |
+| **macOS** | `Paster.dmg` | Drag to Applications folder (see guide below) |
+
+**System Requirements:**
+- **Windows:** Windows 10 / Windows 11
+- **Linux:** x86_64 architecture, X11 display server (recommended)
+- **macOS:** macOS 12.0+, supports both Intel and Apple Silicon
 
 ---
 
@@ -278,6 +342,7 @@ Download the latest release from [**Releases**](https://gitee.com/aiexporter/pas
 | `Ctrl + 1` | Show/Hide main window |
 | `Ctrl + 2` | Launch screenshot |
 | `Ctrl + 3` | Quick Insert text |
+| `Ctrl + 4` | Start screen recording |
 | `Esc` | Close screenshot / Close sticky note |
 
 All hotkeys are fully customizable in Settings.
@@ -291,6 +356,41 @@ All hotkeys are fully customizable in Settings.
 
 ---
 
+## 🐧 Linux & macOS Usage Guide
+
+### Linux
+
+**Run command:**
+```bash
+chmod +x Paster-x86_64.AppImage
+./Paster-x86_64.AppImage
+```
+
+You can also double-click the file and select "Execute".
+
+**Important Notes:**
+- Global hotkeys only work under **X11** sessions (not supported on Wayland)
+- If the tray icon doesn't appear, check if your desktop environment supports system trays (recommended: GNOME + AppIndicator extension, or KDE Plasma)
+- OCR requires Tesseract: `sudo apt install tesseract-ocr` (Ubuntu/Debian), or one-click install in Settings
+- Data storage location: `~/.local/share/Paster/`
+
+### macOS
+
+**Installation steps:**
+1. Download `Paster.dmg`
+2. Double-click to mount, drag `Paster.app` into the **Applications** folder
+3. First launch: Right-click `Paster.app` → select "Open" (bypass unsigned app warning)
+4. Click "Open" on the security prompt
+5. Subsequent launches: double-click normally
+
+**Important Notes:**
+- First launch will request **Accessibility** and **Input Monitoring** permissions (for global hotkeys and auto-paste) — grant these in System Settings when prompted
+- macOS uses the native Vision framework for OCR (no additional installation required)
+- Supports both Intel and Apple Silicon (universal binary)
+- Data storage location: `~/Library/Application Support/Paster/`
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
@@ -298,12 +398,48 @@ All hotkeys are fully customizable in Settings.
 | **Qt 6** | Cross-platform GUI framework |
 | **C++17** | Core programming language |
 | **CMake** | Build system |
-| **Tesseract OCR** | Offline text recognition |
-| **Windows API** | Global hotkeys & system interaction |
+| **Tesseract OCR** | Offline text recognition (Windows/Linux) |
+| **Apple Vision** | Native OCR framework (macOS) |
+| **FFmpeg** | Screen recording engine |
+| **Windows API** | Screenshot, global hotkeys, system interaction (Windows) |
+| **X11 / XGrabKey** | Global hotkeys (Linux) |
+| **Core Graphics / Accessibility** | Global hotkeys & input simulation (macOS) |
 
 ---
 
 ## 📜 Changelog
+
+### v1.1.1 (Latest Release, Recommended)
+
+**New Features:**
+- Screen recording with region selection, outputs GIF/MP4/WebM
+- FFmpeg recording engine with auto-download and install
+- Rich recording settings: FPS, quality, codec, hardware acceleration, audio source
+- Quick phrase input: create custom text phrases and bind global hotkeys for one-click send
+- Enhanced screenshot tool: new mosaic, highlighter, eraser, crop, resize, watermark tools
+- Image adjustments: brightness, contrast, grayscale, sepia, invert, opacity
+- Layer management for multi-layer screenshot editing
+- Step annotation tool for tutorial screenshots
+- Rich text (HTML) clipboard support preserving text formatting
+- New update download dialog with progress bar and one-click install
+
+**Improvements:**
+- HiDPI screenshot optimization for accurate pixel capture on high-DPI displays
+- Gaussian blur shadow rendering for smoother visual effects
+- Global hotkey system rewrite fixing Windows hotkey issues
+- Right-click menu rewrite fixing menu display on certain platforms
+- OCR download source migrated to Gitee mirror for faster downloads in China
+- Default recording FPS changed to 30, default audio source changed to System sound
+- Default card base opacity adjusted from 0.75 to 0.85
+- Build system optimization, removed external QHotkey dependency
+
+**Bug Fixes:**
+- Fixed image/file types not copying to clipboard
+- Fixed rare crash when dragging out cards
+- Fixed incorrect OCR download path
+- Fixed display issues in dark mode
+
+---
 
 ### v1.1.0 (Milestone Release, Recommended)
 **New Features:**
