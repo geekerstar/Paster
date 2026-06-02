@@ -16,7 +16,7 @@
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.1 新版发布：新增屏幕录制 / 快捷短语输入 / 截图工具全面增强，立即下载体验！</strong>
+  <strong>🚀 v1.1.2 新版发布：新增桌面便签 / 局域网PC和手机剪贴板共享 / 屏幕录制 / 快捷短语输入 / 截图工具全面增强，立即下载体验！</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -338,10 +338,6 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 **局域网共享剪贴板**
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF.png" width="80%" alt="局域网共享剪贴板"/>
-
-**设置菜单**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/15%E8%AE%BE%E7%BD%AE%E8%8F%9C%E5%8D%95.png" width="80%" alt="设置菜单"/>
 
 </div>
 

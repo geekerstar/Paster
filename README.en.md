@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.1-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.1.2-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🔥 v1.1.1 Released: Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong>
+  <strong>🔥 v1.1.2 Released: Desktop Sticky Notes / LAN & Mobile Clipboard Sharing / Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -408,6 +408,54 @@ You can also double-click the file and select "Execute".
 ---
 
 ## 📜 Changelog
+
+### v1.1.2
+
+**📝 Desktop Sticky Notes:**
+
+- Added a rainbow color dot on the sticky note title bar — click to freely choose any color, no longer limited to presets
+- Custom text color: click the 「A」 button on the formatting toolbar to pick any color for your text; color persists after reopening
+- Close confirmation dialog tells you "Closing a note only hides it — your content is safe", with a "Don't show again" checkbox
+- Each note now has a 「≡」 button at the bottom-right corner to view and manage all desktop notes
+
+**🗂️ Sticky Note Management (Grid View):**
+- Full-screen grid management mode — all notes displayed as cards like a photo wall
+- Each card's color, text formatting, and timestamp matches the desktop version
+- Ctrl+click multi-select with a blue action bar at the top for batch deletion
+- Grid stays open after deletion for continued operations
+- Note count and titles update in real-time
+
+**😊 Emoji & Text Tools:**
+- New 「😊」 button on the formatting toolbar — click to open an emoji picker, selected emoji inserts directly into text
+- New 「···」 expand button on the toolbar containing additional text tools:
+  - H1 / H2 heading formats
+  - Text highlight background (highlighter effect)
+  - Left / Center / Right alignment
+  - Clear formatting
+  - Insert hyperlink
+- Frequently used tools (B I U S etc.) stay visible; less common ones are tucked into 「···」
+
+**⌨️ Quick Insert Enhancements:**
+- The Quick Insert list (Ctrl+3) now supports ↑↓ arrow keys for selection and Enter to confirm
+- Selected item auto-pastes to the active input field and closes the window
+- First item is selected by default on open for faster operation
+
+**🌐 LAN Sharing & Remote Connection:**
+- Two new toolbar buttons after 「New Note」: 「LAN Share」 and 「Remote Connect」
+- Both use SVG icons that auto-adapt to light/dark themes
+
+**🎨 UI Polish:**
+- Toolbar buttons (theme, screenshot, recording, grid, trash, etc.) now auto-adapt their colors in light/dark themes
+- Sticky note toolbar button colors automatically switch based on note background for readability
+- Optimized display handling for deleted items in note grid
+
+**🔧 Bug Fixes:**
+- Fixed Quick Insert window not receiving keyboard input
+- Fixed note management grid closing after batch delete (now stays open)
+- Fixed formatting toolbar buttons hard to read on certain colored backgrounds
+- Fixed dual-monitor screenshot not adapting correctly
+
+---
 
 ### v1.1.1 (Latest Release, Recommended)
 
