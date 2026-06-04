@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.2-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.1.3-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🔥 v1.1.2 Released: Desktop Sticky Notes / LAN & Mobile Clipboard Sharing / Screen Recording / Quick Phrase Input / Enhanced Screenshot Tools — Download Now!</strong>
+  <strong>🔥 v1.1.3 Released: Quick Insert overhaul (search/image preview/type filter) / Backup now includes sticky notes / Image Save As / First-time empty state guide / Enhanced keyboard interaction — Download Now!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -47,7 +47,8 @@ Navigate between clipboard cards using keyboard shortcuts — no mouse needed.
 **Usage:** In the main window card area, use the following keyboard controls:
 - ←/↑ — Select previous card
 - →/↓ — Select next card
-- Enter — Copy selected card content (text/code) or open link/image/file
+- Enter — Single-click behavior (text/code → copy, link → open, image → preview, file → open)
+- Quick double Enter — Double-click behavior (text/link/code → paste at cursor, others → copy)
 - Space — Preview/close selected card content
 
 The selected card is highlighted with a blue border for easy identification.
@@ -119,9 +120,9 @@ Drag any clipboard card out of the main window to create an independent floating
 **Usage:** Press and hold any clipboard card, drag it outside the Paster window. A standalone window with full content is created, supporting always-on-top mode. Closing it won't affect your history.
 
 ### ⌨️ Quick Insert
-Quickly select text from history and auto-send it to the currently focused input field.
+Quickly select history items (text, links, code, images) and auto-send them to the currently focused input field.
 
-**Usage:** Press `Ctrl + 3` to open the Quick Insert list. Only text, link, and code entries are shown. Click any entry and Paster simulates keyboard input to type the content into your active window. The popup supports drag-to-move, close button, and ESC to dismiss.
+**Usage:** Press `Ctrl + 3` to open the Quick Insert popup. The search box at the top filters entries in real-time. Use ↑↓ to navigate, Enter to confirm. Image entries display as 40×40 thumbnails; press Space for a full-size preview that closes on release. Configure visible types (text/link/code/image) in Settings → General. The popup supports drag-to-move, close button, and ESC to dismiss.
 
 ### ⌨️ Quick Phrase Input
 Create custom text phrases and bind global hotkeys — press a hotkey to instantly send preset text at the cursor position.
@@ -144,7 +145,7 @@ One-click toggle between light and dark themes.
 
 **Usage:**
 - **Method 1:** Click the moon/sun icon in the toolbar
-- **Method 2:** Select theme in Settings → General
+- **Method 2:** Select theme in Settings → General via radio buttons
 
 Changes take effect instantly across the entire app, including tray menu and screenshot tool.
 
@@ -182,7 +183,7 @@ Open links in your browser, reveal files in Explorer — all with one click.
 ### 🖼️ Image Preview
 Click image cards for full-resolution preview.
 
-**Usage:** Click the preview button on image cards. A dialog shows the original resolution image, auto-scaled to fit within 85% of screen size.
+**Usage:** Click the preview button on image cards. A dialog shows the original resolution image, auto-scaled to fit within 85% of screen size. Right-click an image card and select 「Save As...」 to save as PNG or JPEG; the save path is remembered from your last use.
 
 ### 🔤 Syntax Highlighting
 Code snippets are automatically detected and displayed with colorful syntax highlighting.
@@ -220,12 +221,12 @@ All data is stored locally — no internet connection required, no cloud upload,
 ### ⏬ Auto Start
 Launch Paster automatically at system startup, ready when you need it.
 
-**Usage:** Check 「Auto Start」 in Settings → General. Paster will run in the background on every boot. Uncheck to disable without affecting saved history.
+**Usage:** Check 「Auto Start」 in Settings → General. Auto-start is registered automatically on first launch. Paster will run in the background on every boot. Uncheck to disable without affecting saved history.
 
 ### 📥 Import & Export
 Backup and restore your entire clipboard history for migration or archiving.
 
-**Usage:** Right-click the tray icon → 「Export Backup」 to save a .pasterbak file. Right-click → 「Import Backup」 to restore. Import supports replace mode (clear existing data) or merge mode (keep existing). Backups include all history types (text, images, etc.). Regular backups recommended.
+**Usage:** Right-click the tray icon → 「Export Backup」 to save a .pasterbak file. Right-click → 「Import Backup」 to restore. Import supports replace mode (clear existing data) or merge mode (keep existing data, dedup by ID). Backups include all history types (text, images, sticky notes, etc.). Regular backups recommended.
 
 ### 💡 Version Updates
 Automatically checks for new versions to keep you up to date.
@@ -240,7 +241,7 @@ When a new version is found, one-click to open the download page.
 ### 🌐 Language Switch
 Supports Chinese and English interfaces.
 
-**Usage:** Go to Settings → General → Language to select 中文 or English. Requires restart to take effect. All UI text, menus, tooltips, and help documentation are fully localized.
+**Usage:** Go to Settings → General → Language to select 中文 or English via radio buttons. Requires restart to take effect. All UI text, menus, tooltips, and help documentation are fully localized.
 
 ### ⏸️ Pause Monitoring
 Temporarily pause clipboard monitoring to protect sensitive content.
@@ -409,6 +410,36 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
+### v1.1.3 (Latest Release, Recommended)
+
+**✨ Image Enhancements:**
+- New 「Save As...」 option on image card right-click menu, supports PNG / JPEG format
+- Screenshot tool and image save-as path auto-remembered for convenience
+
+**📦 Backup & Restore:**
+- Export/import now fully includes desktop sticky notes — replace mode overwrites, merge mode deduplicates by ID
+- Fixed image showing as "Image Expired" after import
+
+**⌨️ Quick Insert (Ctrl+3) Overhaul:**
+- New search box at the top for real-time text filtering
+- ↑↓ switches between search and list; ↑ at top returns to search; typing jumps back to search
+- Image support: 40×40 thumbnails, auto-paste on confirm
+- Press Space on an image entry for full-size preview — release to close, no interruption
+- Centered and beautified title bar, adaptive to dark/light themes
+- New 「Quick Insert Types」 checkboxes in Settings → General to customize visible types
+
+**🎨 UI Polish:**
+- Increased Settings → General page height, optimized layout
+- New first-time user guidance: empty state with prompt text + visible toolbar
+- Fixed double-click issue caused by scroll-to-center on focus
+- Theme and language selection changed from dropdown to radio buttons for cleaner layout
+
+**⌨️ Keyboard Interaction:**
+- Enter on card = single-click behavior (text/code → copy, link → open, image → preview, file → open)
+- Quick double Enter = double-click behavior (text/link/code → paste at cursor, others → copy)
+
+---
+
 ### v1.1.2
 
 **📝 Desktop Sticky Notes:**
@@ -457,7 +488,7 @@ You can also double-click the file and select "Execute".
 
 ---
 
-### v1.1.1 (Latest Release, Recommended)
+### v1.1.1
 
 **New Features:**
 - Screen recording with region selection, outputs GIF/MP4/WebM
