@@ -14,10 +14,10 @@
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
-
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.4 新版发布：桌面贴图标注全面升级（16 个工具）/ 分块懒加载性能优化，立即下载体验！</strong>
+  <strong>🚀 v1.1.4 新版发布：降低70%内存占用，桌面贴图标注全面升级（16 个工具）/ 分块懒加载性能优化，立即下载体验！</strong>
 </div>
+
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
   <p><strong>🎉 本软件永久免费使用，纯为爱发电持续更新！🎉 </strong></p>
@@ -435,8 +435,11 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-
 ### v1.1.4（最新版本，推荐更新）
+
+**💾 内存优化：**
+
+- 重构底层逻辑大幅降低内存占用，整体内存占用降低约 70%，CPU占用几乎0%
 
 **✨ 桌面贴图标注工具全面升级：**
 - 工具栏从 5 个基础工具扩充到 16 个：新增直线、椭圆、圆角矩形、对话气泡、数字序号、图片贴入、橡皮擦(透明擦除)、放大镜、聚光灯、抠图
