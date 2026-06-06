@@ -10,13 +10,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.1.3-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.1.4-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.3 新版发布：快捷插入全面升级（搜索/图片预览/类型筛选）/ 导入导出支持便签 / 图片另存为 / 首次使用空白引导 / 键盘交互增强，立即下载体验！</strong>
+  <strong>🚀 v1.1.4 新版发布：桌面贴图标注全面升级（16 个工具）/ 分块懒加载性能优化，立即下载体验！</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -436,7 +436,32 @@ chmod +x Paster-x86_64.AppImage
 ## 📜 更新日志
 
 
-### v1.1.3（最新版本，推荐更新）
+### v1.1.4（最新版本，推荐更新）
+
+**✨ 桌面贴图标注工具全面升级：**
+- 工具栏从 5 个基础工具扩充到 16 个：新增直线、椭圆、圆角矩形、对话气泡、数字序号、图片贴入、橡皮擦(透明擦除)、放大镜、聚光灯、抠图
+- 扩展面板分三行：绘图(8 个工具) + 滤镜(灰度/反色/怀旧/亮度对比度/抠图) + 美化(边框/阴影/圆角背景/水印/线型/透明度/图层顺序)
+- 工具栏移出图片区域，显示在图片下方（空间不够则显示在上方），不再遮挡内容
+- Ctrl+Z 撤销 / Ctrl+Y 重做，支持所有工具类型
+
+**🎨 交互优化：**
+- 右键工具图标弹出紧凑滑块悬浮窗，快速设置笔触粗细(1~20)和线型
+- 橡皮擦右键可实时查看擦除大小(粗细×3)
+- 三级 Esc：取消绘制 → 取消工具选择 → 退出标注(自动应用标注)
+- 修复 125% DPI 缩放下的坐标偏移(所有工具落点精准)
+- 修复扩展面板按钮右键无响应
+- 修复退出标注时擦除区域复原的问题
+
+**⚡ 性能优化 — 分块懒加载：**
+- 主窗口卡片（Ctrl+1）改为分块加载：初始只创建 50 张卡片，随滚动自动加载更多，告别打开卡顿
+- 快捷插入列表（Ctrl+3）改为分块加载：初始只展示 50 条，滚动到底部自动加载更多
+- 搜索时自动扫描全部历史记录，确保匹配项完整显示
+- 顶部统计改为显示总条数，而非仅已加载条数
+- 消除每次打开主窗口时重建所有卡片的冗余操作
+
+---
+
+### v1.1.3
 
 **✨ 图片操作增强：**
 - 图片卡片右键菜单新增「另存为...」，支持 PNG / JPEG 格式保存到本地

@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.3-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.1.4-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🔥 v1.1.3 Released: Quick Insert overhaul (search/image preview/type filter) / Backup now includes sticky notes / Image Save As / First-time empty state guide / Enhanced keyboard interaction — Download Now!</strong>
+  <strong>🔥 v1.1.4 Released: Desktop Pin annotation overhaul (16 tools) / Chunked lazy loading performance optimization — Download Now!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -410,7 +410,32 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.1.3 (Latest Release, Recommended)
+### v1.1.4 (Latest Release, Recommended)
+
+**✨ Desktop Pin Annotation Tools Overhaul:**
+- Expanded from 5 basic tools to 16: line, ellipse, rounded rectangle, speech bubble, step numbering, image paste, eraser (transparent), magnifier, spotlight, background removal
+- Extension panel in 3 rows: Drawing (8 tools) + Filters (grayscale/invert/sepia/brightness-contrast/bg removal) + Decoration (border/shadow/rounded-bg/watermark/line-style/opacity/layer-order)
+- Toolbar moved outside the image area, displayed below (or above if space is tight) — no longer blocks content
+- Ctrl+Z undo / Ctrl+Y redo, supported for all tool types
+
+**🎨 Interaction Improvements:**
+- Right-click a tool icon to show a compact slider popup for quick brush size (1~20) and line-style adjustment
+- Right-click eraser to preview eraser size (brush thickness × 3)
+- Three-level Esc: cancel drawing → cancel tool selection → exit annotation (auto-apply)
+- Fixed coordinate offset at 125% DPI scaling (all tools place accurately)
+- Fixed extension panel buttons not responding to right-click
+- Fixed erased area restoring incorrectly when exiting annotation
+
+**⚡ Performance — Chunked Lazy Loading:**
+- Main window cards (Ctrl+1) now load in chunks: initially creates only 50 cards, loads more on scroll — no more lag on open
+- Quick Insert list (Ctrl+3) now loads in chunks: initially shows 50 items, loads more on scroll to bottom
+- Search scans the full history to ensure all matches are displayed
+- Top count label now shows total item count instead of just loaded count
+- Eliminated redundant card rebuild on every main window open
+
+---
+
+### v1.1.3
 
 **✨ Image Enhancements:**
 - New 「Save As...」 option on image card right-click menu, supports PNG / JPEG format
