@@ -10,12 +10,12 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.1.4-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.1.6-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.5 新版发布：降低70%内存占用，桌面贴图标注全面升级（16 个工具）/ 分块懒加载性能优化，立即下载体验！</strong>
+  <strong>🚀 v1.1.6 新版发布：双引擎 OCR 系统 — 集成飞桨 PaddleOCR V4，中文识别精度大幅提升，一键安装体验！</strong>
 </div>
 
 
@@ -77,11 +77,17 @@
 ### 👁️ OCR 文字识别
 对截图或图片中的文字进行识别，支持中文和英文，一键复制识别结果，让截图中的文字瞬间可编辑。
 
+Paster 内置 **双 OCR 引擎**，可在「设置 → OCR」Tab 中自由选择：
+- **Tesseract OCR** — 轻量级开源引擎，支持多语言，适合英文和基础识别
+- **PaddleOCR V4 (PP-OCRv4)** — 百度飞桨深度学习引擎，中文识别精度最高，速度约 1~3 秒
+
 **操作方式：**
-- **前置条件：** 在「设置 → OCR」Tab 中确保 Tesseract OCR 引擎可用
+- **前置条件：** 在「设置 → OCR」Tab 中确保至少一个 OCR 引擎已安装
+- **安装：** Tesseract OCR 和 PaddleOCR V4 均支持一键下载安装
 - **使用方式：**
   - ▸ 截图完成后，点击工具栏中的「OCR」按钮
   - ▸ 在图片预览窗口中点击「OCR」按钮
+  - ▸ 在桌面贴图上右键 → 「OCR 识别」
 
 识别结果会显示在弹出窗口中，可一键复制，支持同时打开多个结果弹窗，结果弹窗支持拖拽、缩放、固定到桌面。
 
@@ -397,7 +403,7 @@ chmod +x Paster-x86_64.AppImage
 **注意事项：**
 - 全局快捷键仅在 **X11** 会话下有效，Wayland 下暂不支持
 - 如果系统托盘图标未显示，请检查桌面环境是否支持系统托盘（推荐 GNOME + AppIndicator 插件或 KDE Plasma）
-- OCR 文字识别需要安装 Tesseract：`sudo apt install tesseract-ocr`（Ubuntu/Debian），或在设置中一键安装
+- OCR 文字识别：Windows 支持 Tesseract OCR 和 PaddleOCR V4 双引擎一键安装；Linux 需要安装 Tesseract：`sudo apt install tesseract-ocr`（Ubuntu/Debian）
 - 数据存储位置：`~/.local/share/Paster/`
 
 ### macOS
@@ -425,6 +431,7 @@ chmod +x Paster-x86_64.AppImage
 | **C++17** | 核心开发语言 |
 | **CMake** | 构建系统 |
 | **Tesseract OCR** | 离线文字识别（Windows/Linux） |
+| **PaddleOCR (PP-OCRv4)** | 飞桨深度学习 OCR 引擎（Windows） |
 | **Apple Vision** | 原生 OCR 框架（macOS） |
 | **FFmpeg** | 屏幕录制引擎 |
 | **Windows API** | 截图、全局快捷键、系统交互（Windows） |
@@ -435,7 +442,29 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.1.5（最新版本，推荐更新）
+### v1.1.6（最新版本）
+
+**🆕 双引擎 OCR 系统：**
+
+- 新增 **PaddleOCR V4 (PP-OCRv4)** 引擎集成，基于百度飞桨深度学习框架，中文识别精度大幅提升
+- 设置 → OCR 全面重构，支持 **Tesseract OCR** 和 **PaddleOCR V4** 双引擎自由切换
+- PaddleOCR V4 内置嵌入式 Python 运行环境，一键下载安装（约 150MB），无需额外配置
+- Tesseract OCR 下载源迁移至国内 Gitee 镜像，下载更稳定
+
+**⚡ OCR 识别体验优化：**
+- PaddleOCR V4 采用常驻服务进程模式，首次识别后后续请求响应更快（约 1~3 秒）
+- 首次 OCR 识别显示加载提示，消除等待焦虑
+- 截图 OCR 和图片 OCR 统一引擎选择，一处切换全局生效
+- 优化无引擎时的提示文案，引导用户前往设置页选择并安装 OCR 引擎
+
+**🔧 稳定性改进：**
+
+- 新增 OcrPaddleCli 服务进程生命周期管理，应用退出时自动清理后台进程
+- 优化 OCR 引擎初始化逻辑，无引擎时给出明确引导
+
+---
+
+### v1.1.5
 
 **💾 内存优化：**
 
@@ -575,7 +604,7 @@ chmod +x Paster-x86_64.AppImage
 
 ---
 
-### v1.1.0（里程碑版本，推荐更新）
+### v1.1.0
 **新增功能：**
 - 截图悬浮工具条支持自由拖拽，可随心摆放任意位置
 - 工具栏新增网格布局模式，一屏直观浏览全部剪贴历史记录
