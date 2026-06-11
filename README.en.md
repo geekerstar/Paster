@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.4-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.1.7-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🔥 v1.1.4 Released: Desktop Pin annotation overhaul (16 tools) / Chunked lazy loading performance optimization — Download Now!</strong>
+  <strong>🚀 v1.1.7 Released: Desktop Floating Launcher — radial menu with screenshot/recording/OCR/notes/quick-insert shortcuts, drag support, pulse notification on new items!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -113,6 +113,11 @@ Configure recording in Settings → Recording tab:
 - ▸ Max duration, idle auto-stop
 
 After recording, preview, copy to clipboard, or save to file. MP4/WebM requires FFmpeg — download and install it in Settings → Recording.
+
+### 🏐 Desktop Floating Launcher
+A persistent desktop floating ball for quick access to common features. Pulses when new clipboard items arrive.
+
+**Usage:** Enable in Settings → General → "Floating Launcher". Click the ball to open a radial menu with 6 shortcuts: Screenshot, Recording, Quick Insert, OCR, New Sticky Note, Show/Hide Main Window. Drag to reposition — auto-snaps to screen edges. Auto-fades to semi-transparent after 5s idle; restores opacity on hover. Right-click for context menu (close, open settings). Supports drag-and-drop text/files into the clipboard.
 
 ### 🖱️ Drag & Drop
 Drag any clipboard card out of the main window to create an independent floating window — great for multitasking and comparison.
@@ -410,7 +415,56 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.1.4 (Latest Release, Recommended)
+### v1.1.7 (Latest Release)
+
+**🆕 Desktop Floating Launcher:**
+- New **Floating Launcher** — a persistent desktop ball for quick access to common features
+- Click to expand a radial menu with 6 shortcuts: Screenshot, Recording, Quick Insert, OCR, New Note, Show/Hide Main Window
+- Drag to reposition with auto-screen-edge snapping; position is remembered
+- Auto-fades to semi-transparent after 5 seconds idle; restores on hover
+- Right-click for context menu (close launcher, open settings, etc.)
+- Drag-and-drop text/files onto the ball to insert into clipboard
+- Pulses with a blinking animation when new clipboard items arrive
+- New toggle in Settings → General to enable/disable
+- Auto-adapts to dark/light themes
+
+**📖 Help Manual Redesign:**
+- Help manual fully revamped: from vertical scrolling card layout to left-right split layout
+- Left side: feature name list; right side: detailed description and usage for the selected feature
+- Search bar filters the feature list in real-time
+- Compact left panel width, content area adapts to window size
+
+**🔧 Floating Launcher Improvements:**
+- Drag boundary constraints prevent the launcher from being dragged off-screen
+- Auto-corrects position on release to keep it fully visible
+
+**🐛 Bug Fixes:**
+- Fixed screenshot tool capturing the wrong screen on multi-monitor setups (now captures the screen where the cursor is located)
+
+---
+
+### v1.1.6
+
+**🆕 Dual-Engine OCR System:**
+- Integrated **PaddleOCR V4 (PP-OCRv4)** based on Baidu PaddlePaddle — significantly improved Chinese text recognition
+- Fully redesigned Settings → OCR tab with dual-engine switching between **Tesseract OCR** and **PaddleOCR V4**
+- PaddleOCR V4 includes embedded Python runtime — one-click download and install (~150MB), no manual setup required
+- Tesseract OCR download source migrated to Gitee mirror for more reliable downloads in China
+
+**⚡ OCR Experience Improvements:**
+- PaddleOCR V4 runs as a persistent service process — subsequent requests are faster (~1–3s) after the first recognition
+- Loading hint shown on first OCR use to set expectations (~10s model load time)
+- Unified OCR engine selection across screenshot OCR and image OCR
+- Improved empty-engine prompt to guide users to Settings for engine installation
+
+**🔧 Stability:**
+- OcrPaddleCli service process lifecycle management — auto-cleans background processes on app exit
+- PaddlePaddle runtime library path auto-configuration to resolve DLL conflicts
+- Improved OCR engine initialization logic with clear guidance when no engine is available
+
+---
+
+### v1.1.4
 
 **✨ Desktop Pin Annotation Tools Overhaul:**
 - Expanded from 5 basic tools to 16: line, ellipse, rounded rectangle, speech bubble, step numbering, image paste, eraser (transparent), magnifier, spotlight, background removal
