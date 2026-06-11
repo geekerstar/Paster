@@ -10,12 +10,12 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.1.8-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.1.9-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.8 新版发布：卡片交互全面增强 — 拖拽浮动预览，富文本编辑，快捷 OCR，操作提示！</strong>
+  <strong>🚀 v1.1.9 新版发布：桌面悬浮快捷图标、快速OCR功能，主题自动跟随系统！</strong>
 </div>
 
 
@@ -383,6 +383,7 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 | `Ctrl + 2` | 启动截图 |
 | `Ctrl + 3` | 快速插入文本 |
 | `Ctrl + 4` | 启动屏幕录制 |
+| `Ctrl + 5` | 快速 OCR 识别 |
 | `Esc` | 关闭截图 / 关闭贴图 |
 
 所有快捷键均可在设置页面自定义修改。
@@ -450,7 +451,29 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.1.8（最新版本）
+### v1.1.9（最新版本）
+
+**🆕 快速 OCR 快捷键：**
+
+- 新增独立全局快捷键 `Ctrl + 5`，一键启动快速 OCR 捕捉，不再需要先打开截图再点 OCR
+- 设置 → 快捷键 Tab 新增「快速OCR」条目，支持自定义快捷键
+- OCR 拾取体验优化：选中区域后自动立即识别，不再弹出工具栏，简化操作流程
+- 识别完成后 2 秒自动关闭选区覆盖层，更快衔接后续操作
+
+**🌓 主题跟随系统：**
+
+- 新增「跟随系统」主题模式，自动检测 Windows/macOS/Linux 系统深浅色主题
+- 设置 → 通用 → 主题 新增「跟随系统」选项，选中后实时跟随桌面主题变化
+- 系统切换深色/浅色模式时，Paster 无需重启即自动同步
+- Windows 下支持通过主题设置变化即时响应
+
+**🐛 问题修复：**
+
+- 优化 OCR 快速捕捉交互细节
+
+---
+
+### v1.1.8
 
 - **🆕 快速 OCR 捕捉：**
 
