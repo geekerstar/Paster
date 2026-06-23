@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.1.7-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.1-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.1.7 Released: Desktop Floating Launcher — radial menu with screenshot/recording/OCR/notes/quick-insert shortcuts, drag support, pulse notification on new items!</strong>
+  <strong>🚀 v1.2.1 Released: 5 new utility tools, smart card features, color picker hex input preview!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -415,7 +415,52 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.1.7 (Latest Release)
+### v1.2.1 (Latest Release)
+
+**🆕 New Utility Tools:**
+
+- New Base64/URL Encode/Decode tool — bidirectional encoding and decoding
+- New Curl Parser — parse curl commands into visual request parameters
+- New Cron Expression Editor — visual generation and parsing of cron expressions
+- New Network Debug Tool — send HTTP requests and view responses
+- New UUID Generator — generate UUID v4/v7 and more with one click
+- Tool panel tab bar now supports scrolling, no longer limited by space
+
+**💡 Smart Card Features:**
+
+- Auto-detect expressions in text cards and display calculation results
+- Detect color codes (Hex/RGB/HSL) and show color bar on card left edge
+- Detect timestamps and convert to human-readable date format
+- Detect unit values and auto-convert
+- New 「📖 Reading Mode」 in card context menu — focus on reading long text
+- New 「Developer Tools」 submenu: JSON format, URL decode, Base64 decode, SHA-256 hash, word count
+
+**📊 Stats Enhancement:**
+
+- Stats dashboard fully revamped with summary cards, trend charts, heatmap, pie chart components
+- New efficiency score based on copy type and time distribution
+- Chart layout optimization for clearer data display
+
+**⚙️ Improvements:**
+
+- Sticky note startup made configurable — new toggle "Show sticky notes on startup" in Settings → General
+
+**🎨 Color Picker Optimization:**
+
+- New hexadecimal color input field for direct Hex value preview
+- Optimized color picker layout for better usability
+
+**🌓 Dark Mode Polish:**
+
+- Improved sticky note card styling in dark mode
+
+**🐛 Bug Fixes:**
+
+- Fixed display anomalies on clipboard cards in certain scenarios
+
+---
+
+### v1.1.7
 
 **🆕 Desktop Floating Launcher:**
 - New **Floating Launcher** — a persistent desktop ball for quick access to common features

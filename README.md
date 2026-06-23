@@ -10,13 +10,14 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.2.0-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.2.1-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.0 新版发布：实用工具集、使用统计、快捷键独立开关、OCR 后自动复制！</strong>
+  <strong>🚀 v1.2.1 新版发布：5 款新实用工具、卡片智能工具、取色器 Hex 输入预览，其他细节功能优化！</strong>
 </div>
+
 
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -451,7 +452,52 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.2.0（最新版本）
+### v1.2.1（最新版本）
+
+**🆕 实用工具增强：**
+
+- 新增 Base64/URL 编解码工具，支持编码与解码双向操作
+- 新增 Curl 解析工具，将 curl 命令一键解析为可视化请求参数
+- 新增 Cron 表达式编辑器，支持可视化生成和解析 Cron 表达式
+- 新增网络调试工具，支持 HTTP 请求发送与响应查看
+- 新增 UUID 生成器，支持 UUID v4/v7 等多种版本一键生成
+- 工具面板标签栏新增滚动支持，工具数量不再受空间限制
+
+**💡 卡片智能工具：**
+
+- 文本卡片自动识别表达式并显示计算结果
+- 检测颜色代码（Hex/RGB/HSL）并在卡片左侧显示色条
+- 检测时间戳并转换为可读日期格式
+- 检测单位数值并自动换算
+- 卡片右键菜单新增「📖 阅读模式」，专注阅读长文本
+- 卡片右键菜单新增「开发者工具」子菜单：JSON 格式化、URL 解码、Base64 解码、SHA-256 哈希、字数统计
+
+**📊 使用统计增强：**
+
+- 统计看板全面重构，新增摘要卡片、趋势图、热力图、饼图等可视化组件
+- 新增效率评分功能，根据复制类型和时间分布智能评估使用效率
+- 统计图表布局优化，数据展示更清晰直观
+
+**⚙️ 功能优化：**
+
+- 便签开机自启改为可配置选项，在「设置 → 通用」中新增「开机显示便签到桌面」开关
+
+**🎨 取色器优化：**
+
+- 新增十六进制颜色输入框，支持直接输入 Hex 值实时预览颜色
+- 取色器界面布局优化，操作更顺手
+
+**🌓 深色模式优化：**
+
+- 优化深色模式下便签卡片显示样式，视觉效果更统一
+
+**🐛 问题修复：**
+
+- 修复剪贴板卡片在某些场景下的显示异常问题
+
+---
+
+### v1.2.0
 
 **🆕 实用工具集：**
 
