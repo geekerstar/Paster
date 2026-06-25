@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.1-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.2-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.1 Released: 5 new utility tools, smart card features, color picker hex input preview!</strong>
+  <strong>🚀 v1.2.2 Released: Scroll/long screenshot, fully customizable hotkeys, floating launcher auto-direction, bug fixes!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -351,7 +351,7 @@ Download the latest release for your platform from [**Releases**](https://gitee.
 | `Ctrl + 4` | Start screen recording |
 | `Esc` | Close screenshot / Close sticky note |
 
-All hotkeys are fully customizable in Settings.
+All hotkeys are fully customizable in Settings. You can assign independent hotkeys to 15 system features and 11 utility tools.
 
 ---
 
@@ -415,7 +415,42 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.1 (Latest Release)
+### v1.2.2 (Latest Release)
+
+**🆕 Scroll/Long Screenshot:**
+
+- New scroll/long screenshot feature supporting vertical and horizontal scrolling with auto-stitching
+- New "Scroll Capture" button in the screenshot extended toolbar
+- Auto-detect window scroll region, capture frames and stitch intelligently
+- Built-in overlap detection algorithm eliminates seam artifacts
+- Auto-enters annotation mode after stitching for further editing, copying, or saving
+
+**⌨️ Fully Customizable Hotkeys:**
+
+- Hotkey settings completely revamped: from 6 fixed hotkeys to fully customizable add/remove system
+- 4 default hotkeys included (Show Window/Screenshot/Quick Insert/Recording)
+- Assign hotkeys to 15 system features (New Note/Grid View/Trash/Toggle Theme/Pause Monitoring/Open Settings/etc.)
+- Assign hotkeys to 11 utility tools (Color Picker/Unit Converter/JSON Formatter/Text Diff/etc.)
+- New "Add" button with visual dialog: select feature → set key combination
+- Each hotkey has independent enable/disable toggle and delete button
+
+**🖱️ Floating Launcher Optimization:**
+
+- Menu expansion direction auto-adjusts based on screen edge proximity, preventing overflow
+
+**🎨 UI Polish:**
+
+- "About" tab fully updated with left-right dual-card layout and new "Special Notice" card
+
+**🐛 Bug Fixes:**
+
+- Fixed screenshot dimming on continuous click
+- Fixed settings dialog blocking other features when open
+- Fixed OCR installation failure due to long file paths
+
+---
+
+### v1.2.1
 
 **🆕 New Utility Tools:**
 
