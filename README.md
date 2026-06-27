@@ -10,12 +10,12 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.2.3-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.2.4-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.3 新版发布：多项功能Bug修复，完善赞助墙、检查更新全面优化、设置页面美化与公告功能增强！</strong>
+  <strong>🚀 v1.2.4 新版发布：多项功能Bug修复，完善赞助墙、检查更新全面优化、设置页面美化与公告功能增强！</strong>
 </div>
 
 
@@ -466,7 +466,7 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.2.3（最新版本）
+### v1.2.4（最新版本）
 
 **✨ 赞助墙弹窗：**
 
