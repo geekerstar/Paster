@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.4-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.5-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.4 Released: Sponsor wall, update dialog overhaul, announcement change detection, UI polish!</strong>
+  <strong>🚀 v1.2.5 Released: Sponsor wall, update dialog overhaul, announcement change detection, UI polish!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -427,7 +427,7 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.4 (Latest Release)
+### v1.2.5 (Latest Release)
 
 **✨ Sponsor Wall:**
 
