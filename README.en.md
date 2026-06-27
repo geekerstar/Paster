@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.2-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.3-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.2 Released: Scroll/long screenshot, fully customizable hotkeys, floating launcher auto-direction, bug fixes!</strong>
+  <strong>🚀 v1.2.3 Released: Sponsor wall, update dialog overhaul, announcement change detection, UI polish!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -320,6 +320,18 @@ Paster lives in the system tray — runs quietly in the background, one click aw
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.png" width="80%" alt="Help Manual"/>
 
+**Utility Toolbox**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="Utility Toolbox"/>
+
+**Floating Launcher**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E5%8D%93%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="Floating Launcher"/>
+
+**Check for Updates**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="Check for Updates"/>
+
 </div>
 
 ---
@@ -415,7 +427,54 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.2 (Latest Release)
+### v1.2.3 (Latest Release)
+
+**✨ Sponsor Wall:**
+
+- New sponsor display dialog with FlowLayout card layout
+- Sponsor list fetched live from Gitee online source file
+- Adapts to dark/light theme automatically
+
+**🔄 Update Check Overhaul:**
+
+- New update dialog with left-right split layout: version list on the left, changelog on the right
+- View all changelogs from current version up to latest
+- Silent auto-check when opening settings, badge indicator on update tab when new version found
+
+**📢 Announcement Enhancement:**
+
+- Announcement text persisted and compared automatically, shows indicator when changed
+- Version update indicator takes priority over announcement indicator
+
+**🎨 Settings UI Polish:**
+
+- Removed marquee, reclaimed space
+- Moved announcement to update tab
+- Added "更新" title, removed redundant separators
+
+**💳 Sponsor Text Unification:**
+
+- All "打赏" (donate) renamed to "赞助" (sponsor)
+- "支持用户" renamed to "赞助墙"
+
+**🐛 Bug Fixes:**
+
+- Fixed screenshot not working on extended monitors and floating ball unable to move to secondary screen
+- Fixed monitoring state not resuming after restart when previously paused
+- Fixed clipboard tags and quick paste not working in Explorer address bar
+- Fixed clipboard tags and quick paste window not supporting always-on-top
+- Fixed cards and quick insert window not refreshing in real-time when new content arrives while pinned to desktop
+- Fixed occasional network request anomalies causing functionality issues
+- Fixed occasional layout glitches when loading the sponsor wall dialog
+- Fixed status text overlapping content during dialog loading
+
+**🙏 Special Thanks:**
+
+- Thanks to Gitee users Minipad and chenyyang for their feature suggestions and bug reports that helped improve this release
+
+---
+
+### v1.2.2
 
 **🆕 Scroll/Long Screenshot:**
 

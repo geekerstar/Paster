@@ -10,12 +10,12 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.2.2-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.2.3-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.2 新版发布：新增长截图功能、快捷键全面自定义、悬浮球方向自适应，多项问题修复！</strong>
+  <strong>🚀 v1.2.3 新版发布：赞助墙弹窗、检查更新全面优化、设置页面美化与公告功能增强！</strong>
 </div>
 
 
@@ -357,6 +357,18 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF.png" width="80%" alt="局域网共享剪贴板"/>
 
+**实用工具箱**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="实用工具箱"/>
+
+**桌面悬浮按钮**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E5%8D%93%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="桌面悬浮按钮"/>
+
+**检查更新**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="检查更新"/>
+
 </div>
 
 ---
@@ -454,7 +466,60 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.2.2（最新版本）
+### v1.2.3（最新版本）
+
+**✨ 赞助墙弹窗：**
+
+- 新增赞助用户展示弹窗，采用 FlowLayout 流式排列卡片布局
+- 赞助用户列表从 Gitee 在线文件实时读取，便于动态更新
+- 支持深色/亮色主题自适应
+
+**🔄 检查更新全面优化：**
+
+- 新增检查更新结果弹窗，左右分栏布局：左侧版本列表、右侧更新日志
+- 可查看从当前版本到最新版本的所有更新内容
+- 打开设置页面时自动静默检查更新，发现新版本时在更新 Tab 上显示圆点提示
+- 兼容深色/亮色主题
+
+**📢 公告功能增强：**
+
+- 公告内容持久化存储，自动检测变更并在更新 Tab 上给出提示
+- 版本更新提示优先级高于公告变更提示
+
+**🎨 设置页面美化：**
+
+- 移除顶部跑马灯，回收占用空间
+- 公告内容迁移到更新 Tab，统一管理
+- 更新 Tab 增加「更新」标题，移除冗余分割线
+
+**💳 赞助相关文字统一：**
+
+- 所有「打赏」文字统一改为「赞助」
+- 「支持用户」改为「赞助墙」
+
+**🖼️ 公众号二维码弹窗：**
+
+- 点击「关注公众号」按钮弹出二维码图片弹窗，不再跳转 Tab
+- 弹窗尺寸自适应图片比例
+
+**🐛 问题修复：**
+
+- 修复双屏环境下截图无法在扩展屏幕使用、悬浮球无法移到副屏的问题
+- 修复暂停监控后重启软件，监控状态未恢复为自动监控的问题
+- 修复剪贴板标签和快捷粘贴在资源管理器地址栏无法复制粘贴的问题
+- 修复剪贴板标签和快捷粘贴窗口不支持置顶的问题
+- 修复卡片和快捷插入窗口钉到桌面后，新内容到达时不实时刷新的问题
+- 修复网络请求偶尔异常导致功能异常的问题
+- 修复赞助墙弹窗加载时偶发布局错乱的问题
+- 修复弹窗加载时提示文字遮挡内容的问题
+
+**🙏 感谢反馈：**
+
+- 感谢 Gitee 用户 Minipad 和 chenyyang 反馈的优化建议与 Bug 报告，为本期版本改进提供了宝贵帮助
+
+---
+
+### v1.2.2
 
 **🆕 长截图（滚动截图）：**
 
