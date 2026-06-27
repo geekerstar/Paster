@@ -15,7 +15,7 @@
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.3 新版发布：赞助墙弹窗、检查更新全面优化、设置页面美化与公告功能增强！</strong>
+  <strong>🚀 v1.2.3 新版发布：多项功能Bug修复，完善赞助墙、检查更新全面优化、设置页面美化与公告功能增强！</strong>
 </div>
 
 
