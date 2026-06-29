@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.5-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.6-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.5 Released: Sponsor wall, update dialog overhaul, announcement change detection, UI polish!</strong>
+  <strong>🚀 v1.2.6 Released: Screenshot tool revamped, confirm/cancel buttons, OCR text overlay on images, 4K resolution optimizations!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -427,7 +427,35 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.5 (Latest Release)
+### v1.2.6 (Latest Release)
+
+**🆕 Confirm/Cancel Buttons on Screenshot Toolbar:**
+
+- New red "✕ Cancel" and green "✓ Confirm & Paste" buttons added to the screenshot toolbar — copy and paste the screenshot directly into your current input field with one click, no need to switch windows and press Ctrl+V manually
+
+**🎨 Screenshot Tool UI Optimization:**
+
+- All SVG icons on the screenshot toolbar have been fully optimized — crisp and clear on high DPI/4K displays
+- Improved rectangle annotation tool and text annotation tool with zoom and move support
+- New screenshot configuration option bar added
+
+**📝 Sticky Note Optimization:**
+
+- Fixed flickering issue when sticky notes are pinned to desktop
+
+**🐛 Bug Fixes:**
+
+- Fixed card double-click paste not working in some scenarios
+- Fixed blurred screenshot tool icons on 4K displays
+- Fixed global hotkey responsiveness issues on certain system environments
+
+**🙏 Special Thanks:**
+
+- Thanks to Budaliao, Gitee users chenyyang and skbsoft for their feedback and bug reports that helped improve this release
+
+---
+
+### v1.2.5
 
 **✨ Sponsor Wall:**
 

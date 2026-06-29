@@ -10,13 +10,14 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.2.5-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.2.6-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.5 新版发布：多项功能Bug修复，完善赞助墙、检查更新全面优化、设置页面美化与公告功能增强！</strong>
+  <strong>🚀 v1.2.6 新版发布：截图工具全面升级、多项Bug修复及优化！</strong>
 </div>
+
 
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -466,7 +467,35 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.2.5（最新版本）
+### v1.2.6（最新版本）
+
+**🆕 截图工具栏新增确认/取消按钮：**
+
+- 截图工具栏底部新增红色「✕ 取消」按钮，绿色「✓ 确认并粘贴」按钮，一键将截图复制到剪贴板并自动粘贴到当前输入框，无需手动切换窗口再 Ctrl+V
+
+**🎨 截图工具界面优化：**
+
+- 截图工具栏所有 SVG 图标全面优化更新，高 DPI/4K 分辨率下图标清晰不再模糊
+- 优化矩形标注工具和截图文字工具，支持缩放和移动
+- 新增截图配置选项栏
+
+**📝 便签优化：**
+
+- 优化便签显示效果，固定到桌面不再闪烁
+
+**🐛 问题修复：**
+
+- 修复剪贴板卡片双击粘贴在某些场景下失效的问题
+- 修复 4K 分辨率下截图工具图标模糊的问题
+- 修复全局快捷键在某些系统环境下响应异常的问题
+
+**🙏 感谢反馈：**
+
+- 感谢布达辽、Gitee用户chenyyang、skbsoft反馈的优化建议与 Bug 报告，为本期版本改进提供了宝贵帮助
+
+---
+
+### v1.2.5
 
 **✨ 赞助墙弹窗：**
 
