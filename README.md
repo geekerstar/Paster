@@ -10,12 +10,12 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.2.6-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.2.7-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/许可证-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.6 新版发布：截图工具全面升级、多项Bug修复及优化！</strong>
+  <strong>🚀 v1.2.7 新版发布：支持离线翻译功能、多项Bug修复及优化！</strong>
 </div>
 
 
@@ -97,6 +97,16 @@ Paster 内置 **双 OCR 引擎**，可在「设置 → OCR」Tab 中自由选择
   - ▸ 在桌面贴图上右键 → 「OCR 识别」
 
 识别结果会显示在弹出窗口中，可一键复制，支持同时打开多个结果弹窗，结果弹窗支持拖拽、缩放、固定到桌面。
+
+### 🌐 离线翻译
+内置 Argos Translate 离线翻译引擎，支持中文与英文双向翻译，全程本地运行无需联网，保护隐私安全。
+
+**操作方式：**
+- ▸ 在任意剪贴板卡片上右键 →「翻译」即可快速翻译文字内容
+- ▸ OCR 识别结果弹窗中新增「翻译」按钮，识别后一键翻译
+- ▸ 阅读模式窗口中同样支持一键翻译
+- ▸ 首次加载模型需要 3~10 秒，后续翻译响应迅速
+- ▸ 可在「设置 → 翻译」Tab 中一键安装/卸载翻译引擎
 
 ### 📌 桌面贴图
 截图可「钉」在桌面上，支持缩放、标注、旋转、翻转，如同便利贴。
@@ -322,6 +332,10 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AF%86%E5%88%AB%E5%90%8E%E5%B0%86%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%88%B0%E5%9B%BE%E7%89%87.png" width="80%" alt="识别后将文字显示到图片"/>
 
+**截图翻译**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="截图翻译"/>
+
 | **导入导出** | **回收站** |
 |:---:|:---:|
 | <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.png" width="100%" alt="导入导出"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%9B%9E%E6%94%B6%E7%AB%99.png" width="100%" alt="回收站"/> |
@@ -467,35 +481,38 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.2.6（最新版本）
+### v1.2.7（最新版本）
 
-**🆕 截图工具栏新增确认/取消按钮：**
+**🆕 内置离线翻译引擎：**
 
-- 截图工具栏底部新增红色「✕ 取消」按钮，绿色「✓ 确认并粘贴」按钮，一键将截图复制到剪贴板并自动粘贴到当前输入框，无需手动切换窗口再 Ctrl+V
+- 新增 Argos Translate 离线翻译引擎，支持中文与英文双向翻译，全程本地运行无需联网
+- 在任意剪贴板卡片上右键 →「翻译」即可快速翻译文字内容
+- OCR 识别结果弹窗中新增「翻译」按钮，识别后一键翻译
+- 阅读模式窗口中同样支持一键翻译
+- 首次加载模型需要 3~10 秒，后续翻译响应迅速
+- 可在「设置 → 翻译」Tab 中一键安装/卸载翻译引擎
 
-**🎨 截图工具界面优化：**
+**🖱️ 卡片交互优化：**
 
-- 截图工具栏所有 SVG 图标全面优化更新，高 DPI/4K 分辨率下图标清晰不再模糊
-- 优化矩形标注工具和截图文字工具，支持缩放和移动
-- 新增截图配置选项栏
+- 优化剪贴板卡片单击/双击逻辑，操作响应更精准
+- 优化卡片显示效果，卡片列表浏览更流畅
 
-**📝 便签优化：**
+**📝 便签功能增强：**
 
-- 优化便签显示效果，固定到桌面不再闪烁
+- 便签窗口支持自由缩放大小，缩放后内容自适应显示
+- 优化便签编辑体验
 
 **🐛 问题修复：**
 
-- 修复剪贴板卡片双击粘贴在某些场景下失效的问题
-- 修复 4K 分辨率下截图工具图标模糊的问题
-- 修复全局快捷键在某些系统环境下响应异常的问题
+- 修复快速插入功能在某些场景下粘贴失效的问题
 
 **🙏 感谢反馈：**
 
-- 感谢布达辽、Gitee用户chenyyang、skbsoft反馈的优化建议与 Bug 报告，为本期版本改进提供了宝贵帮助
+- 感谢Gitee用户chenyyang反馈的翻译功能需求与使用建议，为本期版本改进提供了宝贵帮助
 
 ---
 
-### v1.2.5
+### v1.2.6
 
 **✨ 赞助墙弹窗：**
 

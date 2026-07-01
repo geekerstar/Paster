@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.6-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.2.7-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.6 Released: Screenshot tool revamped, confirm/cancel buttons, OCR text overlay on images, 4K resolution optimizations!</strong>
+  <strong>🚀 v1.2.7 Released: Offline translation engine, card interaction optimization, sticky note resizing & bug fixes!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -85,6 +85,16 @@ Recognize text from screenshots or images. Supports Chinese and English.
   - Click 「OCR」 in the image preview window
 
 Results appear in a popup — one-click copy. Multiple result windows can be open simultaneously, each draggable, resizable, and pinnable.
+
+### 🌐 Offline Translation
+Built-in Argos Translate offline translation engine supporting Chinese↔English bidirectional translation. Runs entirely locally with no internet required, ensuring privacy.
+
+**Usage:**
+- ▸ Right-click any clipboard card → "Translate" to quickly translate text content
+- ▸ "Translate" button in OCR result popup for one-click translation after recognition
+- ▸ Reading mode dialog also supports one-click translation
+- ▸ First model load takes 3~10 seconds, subsequent translations are fast
+- ▸ One-click install/uninstall the translation engine in "Settings → Translate" tab
 
 ### 📌 Desktop Pin (Sticky Notes)
 Pin screenshots or images to your desktop — zoom, annotate, rotate, flip. Like a sticky note.
@@ -332,6 +342,10 @@ Paster lives in the system tray — runs quietly in the background, one click aw
 
 <img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="Check for Updates"/>
 
+**Translation**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="Translation"/>
+
 </div>
 
 ---
@@ -427,35 +441,38 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.6 (Latest Release)
+### v1.2.7 (Latest Release)
 
-**🆕 Confirm/Cancel Buttons on Screenshot Toolbar:**
+**🆕 Offline Translation Engine:**
 
-- New red "✕ Cancel" and green "✓ Confirm & Paste" buttons added to the screenshot toolbar — copy and paste the screenshot directly into your current input field with one click, no need to switch windows and press Ctrl+V manually
+- New Argos Translate offline translation engine, supporting Chinese↔English bilingual translation, runs entirely locally with no internet required
+- Right-click any clipboard card → "Translate" to quickly translate text content
+- New "Translate" button in OCR result popup for one-click translation after recognition
+- Reading mode dialog also supports one-click translation
+- First model load takes 3~10 seconds, subsequent translations are fast
+- One-click install/uninstall the translation engine in "Settings → Translate" tab
 
-**🎨 Screenshot Tool UI Optimization:**
+**🖱️ Card Interaction Optimization:**
 
-- All SVG icons on the screenshot toolbar have been fully optimized — crisp and clear on high DPI/4K displays
-- Improved rectangle annotation tool and text annotation tool with zoom and move support
-- New screenshot configuration option bar added
+- Improved clipboard card single-click/double-click logic for more accurate response
+- Optimized card display for smoother browsing
 
-**📝 Sticky Note Optimization:**
+**📝 Sticky Note Enhancement:**
 
-- Fixed flickering issue when sticky notes are pinned to desktop
+- Sticky note windows now support free resizing with content auto-adaptation
+- Improved sticky note editing experience
 
 **🐛 Bug Fixes:**
 
-- Fixed card double-click paste not working in some scenarios
-- Fixed blurred screenshot tool icons on 4K displays
-- Fixed global hotkey responsiveness issues on certain system environments
+- Fixed quick-insert paste failure in certain scenarios
 
 **🙏 Special Thanks:**
 
-- Thanks to Budaliao, Gitee users chenyyang and skbsoft for their feedback and bug reports that helped improve this release
+- Thanks to users who provided translation feature requests and usage suggestions, your feedback helped improve this release
 
 ---
 
-### v1.2.5
+### v1.2.6
 
 **✨ Sponsor Wall:**
 
