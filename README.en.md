@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.2.7-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.3.0-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.2.7 Released: Offline translation engine, card interaction optimization, sticky note resizing & bug fixes!</strong>
+  <strong>🚀 v1.3.0 Released: Configurable card click behavior, floating launcher size adjustment, screenshot UI overhaul!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -441,7 +441,51 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.2.7 (Latest Release)
+### v1.3.0 (Latest Release)
+
+**🎨 Screenshot Tool Overhaul:**
+
+- Full visual refresh of the screenshot toolbar for a significantly improved experience
+- Optimized dual-monitor screenshot capture — more accurate on multi-display setups
+- Screenshot toolbar position now intelligently avoids going off-screen
+- Fixed screenshot-related bugs for improved stability
+
+**🖱️ Configurable Card Click Behavior:**
+
+- New card click behavior settings in "Settings → Card" tab: choose from "Classic (click to copy, double-click to paste)", "Click to Paste", or "Click to Preview"
+- Pinned windows no longer close on paste operations — smoother workflow
+
+**📌 Floating Launcher Size Adjustment:**
+
+- New size option for the desktop floating launcher in "Settings → General" — freely adjust to your preference
+
+**⚙️ Settings UI Refreshed:**
+
+- Overall visual polish of the settings page for a cleaner, more modern look
+
+**🌓 Theme Improvements:**
+
+- Fixed dark theme residue when switching to light theme on dark OS
+- Fixed display anomalies in dark mode
+
+**🛠 Translation Engine Optimization:**
+
+- Improved translation engine installation process for higher success rate
+- Enhanced translation stability and response speed
+
+**🐛 Bug Fixes:**
+
+- Fixed screenshot anomalies in certain scenarios
+- Fixed dark theme switching residue
+- Other stability improvements and detail optimizations
+
+**🙏 Special Thanks:**
+
+- Thanks to all users who provided feedback and suggestions — your input helped improve this release
+
+---
+
+### v1.2.7
 
 **🆕 Offline Translation Engine:**
 
