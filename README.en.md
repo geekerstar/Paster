@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.3.0-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.3.1-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.0 Released: Configurable card click behavior, floating launcher size adjustment, screenshot UI overhaul!</strong>
+  <strong>🚀 v1.3.1 Released: Batch clipboard operations, step numbering tool for screenshot, desktop pin scroll zoom!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -441,7 +441,32 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.3.0 (Latest Release)
+### v1.3.1 (Latest Release)
+
+**🖱️ Batch Clipboard Operations:**
+- New multi-select copy, multi-select paste, sequential copy, sequential paste, and batch delete
+- Optimized card toolbar styling for a more unified appearance
+- Fixed card sizing issues in certain scenarios
+- Optimized settings window interaction to avoid triggering other windows
+
+**📷 Screenshot Tool Enhancements:**
+- New step numbering annotation tool (click-to-place, drag-to-resize, move, double-click to edit number, Delete to remove with auto-renumbering)
+- New hotkey for quick desktop pin after screenshot
+- Optimized drag handle interaction and removed white border lines from shadow area
+- Fixed dual-monitor screenshot bugs for more accurate multi-display capture
+
+**📌 Desktop Pin Enhancement:**
+- Mouse wheel zoom support for pinned desktop images
+
+**🛠 Other Improvements:**
+- Settings page optimization, session button styling updates, screenshot core architecture refactoring
+
+**🙏 Special Thanks:**
+- Thanks to all users who provided feedback and suggestions — your input helped improve this release
+
+---
+
+### v1.3.0
 
 **🎨 Screenshot Tool Overhaul:**
 
