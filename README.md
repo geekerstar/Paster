@@ -30,7 +30,7 @@
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.2 新版发布：快速插入窗口焕新、截图工具栏智能防遮挡、双屏 DPI 修复、窗口焦点优化！</strong>
+  <strong>🚀 v1.3.2 新版发布：快速插入窗口焕新、截图工具栏智能防遮挡、双屏 DPI 修复、窗口焦点优化！另外新增了免安装版</strong>
 </div>
 
 
