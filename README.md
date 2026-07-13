@@ -4,7 +4,7 @@
   <p><strong>轻量 · 高效 · 隐私安全 · 完全免费</strong></p>
   <p>复制过的内容永不丢失 — 剪贴板历史、截图标注、离线 OCR/翻译、桌面便签、实用工具箱，一个工具全搞定</p>
   <p>
-    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.3-brightgreen?style=for-the-badge" alt="立即下载"/></a>
+    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.4-brightgreen?style=for-the-badge" alt="立即下载"/></a>
     &nbsp;
     <a href="#-效果预览"><img src="https://img.shields.io/badge/查看预览-截图-blue?style=for-the-badge" alt="效果预览"/></a>
     &nbsp;
@@ -23,14 +23,14 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows_·_Linux-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.3.3-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.3.4-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/价格-永久免费-success?style=flat-square"/>
     <img src="https://img.shields.io/badge/数据-本地存储-informational?style=flat-square"/>
     <img src="https://gitee.com/aiexporter/paster/badge/star.svg?theme=dark" alt="Gitee Stars"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.3 新版发布：新增免安装绿色版、长截图功能重构、多屏截图优化、马赛克工具优化、新增反馈入口！</strong>
+  <strong>🚀 v1.3.4 新版发布：新增免安装绿色版、长截图功能重构、多屏截图优化、马赛克工具优化、新增反馈入口！</strong>
 </div>
 
 
@@ -587,7 +587,7 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.3.3（最新版本）
+### v1.3.4（最新版本）
 
 **📦 新增免安装版本：**
 
