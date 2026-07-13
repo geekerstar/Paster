@@ -4,7 +4,7 @@
   <p><strong>轻量 · 高效 · 隐私安全 · 完全免费</strong></p>
   <p>复制过的内容永不丢失 — 剪贴板历史、截图标注、离线 OCR/翻译、桌面便签、实用工具箱，一个工具全搞定</p>
   <p>
-    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.2-brightgreen?style=for-the-badge" alt="立即下载"/></a>
+    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.3-brightgreen?style=for-the-badge" alt="立即下载"/></a>
     &nbsp;
     <a href="#-效果预览"><img src="https://img.shields.io/badge/查看预览-截图-blue?style=for-the-badge" alt="效果预览"/></a>
     &nbsp;
@@ -23,15 +23,16 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows_·_Linux-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.3.2-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.3.3-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/价格-永久免费-success?style=flat-square"/>
     <img src="https://img.shields.io/badge/数据-本地存储-informational?style=flat-square"/>
     <img src="https://gitee.com/aiexporter/paster/badge/star.svg?theme=dark" alt="Gitee Stars"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.2 新版发布：快速插入窗口焕新、截图工具栏智能防遮挡、双屏 DPI 修复、窗口焦点优化！另外新增了免安装版</strong>
+  <strong>🚀 v1.3.3 新版发布：新增免安装绿色版、长截图功能重构、多屏截图优化、马赛克工具优化、新增反馈入口！</strong>
 </div>
+
 
 
 ---
@@ -586,7 +587,45 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.3.2（最新版本）
+### v1.3.3（最新版本）
+
+**📦 新增免安装版本：**
+
+- 新增免安装绿色版，解压即用，不写注册表，不占 AppData
+
+**📷 长截图功能重构：**
+
+- 重写图像拼接引擎，引入帧跨度检测（frame-span matching）提升滚动判定准确率
+- 新增置信度评分机制，低质量拼接时自动回退
+- 支持横向滚动拼接评分，应对特殊布局页面
+- 长截图工具栏组件全面美化
+
+**🖥️ 多屏截图优化：**
+
+- 双屏截图逻辑重构，不同DPI缩放会导致截图效果有差别，逻辑改为截取鼠标所在屏幕
+- 取色器工具改进：改为按鼠标所在屏幕单独截取，新增屏幕跟随定时器，跨屏取色更精准
+
+**🎨 截图工具栏调整：**
+
+- 马赛克工具从扩展面板移至主工具栏，常用工具一键直达，并修复上个版本马赛克失效问题
+
+**🐛 标注系统修复：**
+
+- 修复马赛克工具在 HiDPI 屏幕下的像素偏移和崩溃问题
+- 修复 PinWidget 标注渲染时 DPR 计算错误导致的标注位置偏移
+- 修复放大镜工具在 HiDPI 下的像素采样越界问题
+
+**💬 新增反馈入口：**
+
+- 设置界面新增「反馈」Tab，用户可以反馈Bug或需求给作者
+
+**🙏 感谢反馈：**
+
+- 感谢所有反馈问题及意见的用户，为本期版本改进提供了宝贵帮助
+
+---
+
+### v1.3.2
 
 **📷 截图工具增强：**
 
