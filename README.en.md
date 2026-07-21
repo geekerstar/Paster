@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.3.5-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.3.8-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.5 Released: Hotkey settings fix, double-paste bug fix, architecture refactoring!</strong>
+  <strong>🚀 v1.3.8 Released: Quick Insert overhaul (3 click modes + preview), dual-monitor screenshot fix, unified tooltip optimization!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
