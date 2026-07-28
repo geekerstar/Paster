@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.3.8-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.3.9-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.8 Released: Quick Insert overhaul (3 click modes + preview), dual-monitor screenshot fix, unified tooltip optimization!</strong>
+  <strong>🚀 v1.3.9 Released: 12 new History Appearance windows, Settings panel reorganization, Desktop Pin opacity & hide, clipboard copy-source detection, default hotkey adjustments!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -25,6 +25,86 @@
   <p><strong>If you find it useful, don't forget to ⭐ Star the repo!</strong></p>
   <p><strong>Scan to follow our WeChat official account for the latest updates, tutorials & more desktop productivity tools.</strong></p>
   <p><strong>Bug reports & feature requests are always welcome — let's make the best clipboard tool together!</strong></p>
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+**Light Theme**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Light Theme"/>
+
+**Dark Theme**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Dark Theme"/>
+
+**Search Highlighting**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/3%E6%90%9C%E7%B4%A2%E9%AB%98%E4%BA%AE.png" width="80%" alt="Search Highlighting"/>
+
+**Desktop Pin**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%A1%8C%E9%9D%A2%E8%B4%B4%E5%9B%BE.png" width="80%" alt="Desktop Pin"/>
+
+| **Image OCR** | **Screenshot OCR** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%9B%BE%E7%89%87OCR.png" width="100%" alt="Image OCR"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E6%88%AA%E5%9B%BEOCR.png" width="100%" alt="Screenshot OCR"/> |
+
+**OCR Text Overlay on Image**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AF%86%E5%88%AB%E5%90%8E%E5%B0%86%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%88%B0%E5%9B%BE%E7%89%87.png" width="80%" alt="OCR Text Overlay"/>
+
+| **Import & Export** | **Trash** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.png" width="100%" alt="Import & Export"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%9B%9E%E6%94%B6%E7%AB%99.png" width="100%" alt="Trash"/> |
+
+**Grid View**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/10%E7%BD%91%E6%A0%BC%E8%A7%86%E5%9B%BE.png" width="80%" alt="Grid View"/>
+
+**Toast Notification**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/11%E5%8F%B3%E4%B8%8B%E8%A7%92%E9%80%9A%E7%9F%A5.png" width="80%" alt="Toast Notification"/>
+
+| **Quick Insert** | **Quick Insert** |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/12%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC1.png" width="100%" alt="Quick Insert 1"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/13%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC2.png" width="100%" alt="Quick Insert 2"/> |
+
+**Quick Phrase Input**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/14%E5%BF%AB%E6%8D%B7%E7%9F%AD%E8%AF%AD%E8%BE%93%E5%85%A5.png" width="80%" alt="Quick Phrase Input"/>
+
+**Recording Settings**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/15%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E8%AE%BE%E7%BD%AE.png" width="80%" alt="Recording Settings"/>
+
+**Recording Interface**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E7%95%8C%E9%9D%A2.png" width="80%" alt="Recording Interface"/>
+
+**Help Manual**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.png" width="80%" alt="Help Manual"/>
+
+**Utility Toolbox**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="Utility Toolbox"/>
+
+**Floating Launcher**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E5%8D%93%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="Floating Launcher"/>
+
+**Check for Updates**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="Check for Updates"/>
+
+**Translation**
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="Translation"/>
+
 </div>
 
 ---
@@ -62,7 +142,7 @@ Pin important items to keep them always on top, safe from being cleared.
 Full-screen capture with rich annotation tools: rectangle, ellipse, arrow, brush, text, mosaic, highlighter, eraser, crop, and more — plus undo/redo and color picker.
 
 **Usage:**
-- **Method 1:** Press global hotkey `Ctrl + 2` (customizable in settings)
+- **Method 1:** Press global hotkey `F1` (customizable in settings)
 - **Method 2:** Click the camera button in the toolbar
 
 After capture, use the toolbar to annotate, supporting:
@@ -104,13 +184,15 @@ Pin screenshots or images to your desktop — zoom, annotate, rotate, flip. Like
 - Scroll to zoom
 - Right-click for rotate/flip
 - Continue annotating
+- Adjust opacity via the opacity slider on the pinned window
+- Press `Ctrl + H` to hide/show all desktop pins at once (also available from the tray 「Pin」 submenu)
 - Click close to remove
 
 ### 🎬 Screen Recording
 Record a screen region in GIF / MP4 / WebM format, with optional audio, cursor, and hardware acceleration.
 
 **Usage:**
-- **Method 1:** Press global hotkey `Ctrl + 4` (customizable in settings)
+- **Method 1:** Press global hotkey `F2` (customizable in settings)
 - **Method 2:** Select 「Start Recording」 from the system tray context menu
 
 Configure recording in Settings → Recording tab:
@@ -127,7 +209,7 @@ After recording, preview, copy to clipboard, or save to file. MP4/WebM requires 
 ### 🏐 Desktop Floating Launcher
 A persistent desktop floating ball for quick access to common features. Pulses when new clipboard items arrive.
 
-**Usage:** Enable in Settings → General → "Floating Launcher". Click the ball to open a radial menu with 6 shortcuts: Screenshot, Recording, Quick Insert, OCR, New Sticky Note, Show/Hide Main Window. Drag to reposition — auto-snaps to screen edges. Auto-fades to semi-transparent after 5s idle; restores opacity on hover. Right-click for context menu (close, open settings). Supports drag-and-drop text/files into the clipboard.
+**Usage:** Enable in Settings → Appearance → "Desktop Floating Component". Click the ball to open a radial menu with 6 shortcuts: Screenshot, Recording, Quick Insert, OCR, New Sticky Note, Show/Hide Main Window. Drag to reposition — auto-snaps to screen edges. Auto-fades to semi-transparent after 5s idle; restores opacity on hover. Right-click for context menu (close, open settings). Supports drag-and-drop text/files into the clipboard.
 
 ### 🖱️ Drag & Drop
 Drag any clipboard card out of the main window to create an independent floating window — great for multitasking and comparison.
@@ -137,7 +219,7 @@ Drag any clipboard card out of the main window to create an independent floating
 ### ⌨️ Quick Insert
 Quickly select history items (text, links, code, images) and auto-send them to the currently focused input field.
 
-**Usage:** Press `Ctrl + 3` to open the Quick Insert popup. The search box at the top filters entries in real-time. Use ↑↓ to navigate, Enter to confirm. Image entries display as 40×40 thumbnails; press Space for a full-size preview that closes on release. Configure visible types (text/link/code/image) in Settings → General. The popup supports drag-to-move, close button, and ESC to dismiss.
+**Usage:** Press `Ctrl + 2` to open the Quick Insert popup. The search box at the top filters entries in real-time. Use ↑↓ to navigate, Enter to confirm. Image entries display as 40×40 thumbnails; press Space for a full-size preview that closes on release. Configure visible types (text/link/code/image) in Settings → Appearance → Quick Insert. The popup supports drag-to-move, close button, and ESC to dismiss.
 
 ### ⌨️ Quick Phrase Input
 Create custom text phrases and bind global hotkeys — press a hotkey to instantly send preset text at the cursor position.
@@ -149,9 +231,12 @@ Customizable global shortcuts to show/hide the main window, launch screenshot, q
 
 **Default hotkeys:**
 - `Ctrl + 1` — Show/Hide Paster main window
-- `Ctrl + 2` — Launch screenshot tool
-- `Ctrl + 3` — Quick Insert text
-- `Ctrl + 4` — Start screen recording
+- `F1` — Launch screenshot tool
+- `Ctrl + 2` — Quick Insert text
+- `F2` — Start screen recording
+- `Ctrl + H` — Hide/Show all desktop pins (enabled by default)
+- `F3` — Pin screenshot to desktop (disabled by default)
+- OCR / Copy session — unassigned by default (bind in Settings → Hotkeys)
 
 **Usage:** Go to Settings → Hotkeys to customize. Supports Ctrl/Alt/Shift + any key. Conflict detection is automatic.
 
@@ -160,16 +245,16 @@ One-click toggle between light and dark themes.
 
 **Usage:**
 - **Method 1:** Click the moon/sun icon in the toolbar
-- **Method 2:** Select theme in Settings → General via radio buttons
+- **Method 2:** Select theme in Settings → Appearance via radio buttons
 
 Changes take effect instantly across the entire app, including tray menu and screenshot tool.
 
 ### 🎨 Card Customization
 Adjust card size, opacity, and text alignment.
 
-**Usage:** Go to Settings → Card:
+**Usage:** Go to Settings → Appearance → Card Mode:
 - **Card size:** 120px / 160px / 200px / 240px
-- **Card opacity:** 50% ~ 100%
+- **Card opacity:** 0% ~ 100% (0 = fully transparent, 100 = fully opaque)
 - **Card alignment:** Left / Center / Center-Right / Center-Left / Center-Outward / Right
 
 All changes take effect in real-time.
@@ -180,7 +265,7 @@ Multiple preset window positions to fit your workflow.
 **Usage:** Go to Settings → General → Window Position:
 - Bottom Center (default) / Top Center / Left Center / Right Center / Screen Center / Follow Mouse / Custom Position
 
-Remembers custom position between sessions.
+Remembers custom position between sessions. This setting now applies to the main window **and** all 12 History Appearance windows (Sticky Wall, Source Cluster, Calendar Heatmap, Masonry Wall, Gallery Grid, Focus Carousel, Master-Detail, Category Kanban, Timeline Flow, Smart Tags, etc.).
 
 ### ✏️ Inline Editing
 Edit text, link, and code entries directly. Changes save automatically.
@@ -270,86 +355,6 @@ Paster lives in the system tray — runs quietly in the background, one click aw
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-**Light Theme**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Light Theme"/>
-
-**Dark Theme**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="80%" alt="Dark Theme"/>
-
-**Search Highlighting**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/3%E6%90%9C%E7%B4%A2%E9%AB%98%E4%BA%AE.png" width="80%" alt="Search Highlighting"/>
-
-**Desktop Pin**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%A1%8C%E9%9D%A2%E8%B4%B4%E5%9B%BE.png" width="80%" alt="Desktop Pin"/>
-
-| **Image OCR** | **Screenshot OCR** |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%9B%BE%E7%89%87OCR.png" width="100%" alt="Image OCR"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E6%88%AA%E5%9B%BEOCR.png" width="100%" alt="Screenshot OCR"/> |
-
-**OCR Text Overlay on Image**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/7%E8%AF%86%E5%88%AB%E5%90%8E%E5%B0%86%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%88%B0%E5%9B%BE%E7%89%87.png" width="80%" alt="OCR Text Overlay"/>
-
-| **Import & Export** | **Trash** |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.png" width="100%" alt="Import & Export"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%9B%9E%E6%94%B6%E7%AB%99.png" width="100%" alt="Trash"/> |
-
-**Grid View**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/10%E7%BD%91%E6%A0%BC%E8%A7%86%E5%9B%BE.png" width="80%" alt="Grid View"/>
-
-**Toast Notification**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/11%E5%8F%B3%E4%B8%8B%E8%A7%92%E9%80%9A%E7%9F%A5.png" width="80%" alt="Toast Notification"/>
-
-| **Quick Insert** | **Quick Insert** |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/12%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC1.png" width="100%" alt="Quick Insert 1"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/13%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC2.png" width="100%" alt="Quick Insert 2"/> |
-
-**Quick Phrase Input**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/14%E5%BF%AB%E6%8D%B7%E7%9F%AD%E8%AF%AD%E8%BE%93%E5%85%A5.png" width="80%" alt="Quick Phrase Input"/>
-
-**Recording Settings**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/15%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E8%AE%BE%E7%BD%AE.png" width="80%" alt="Recording Settings"/>
-
-**Recording Interface**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E7%95%8C%E9%9D%A2.png" width="80%" alt="Recording Interface"/>
-
-**Help Manual**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E5%B8%AE%E5%8A%A9%E6%89%8B%E5%86%8C.png" width="80%" alt="Help Manual"/>
-
-**Utility Toolbox**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="Utility Toolbox"/>
-
-**Floating Launcher**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E5%8D%93%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="Floating Launcher"/>
-
-**Check for Updates**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="Check for Updates"/>
-
-**Translation**
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="Translation"/>
-
-</div>
-
----
-
 ## 📥 Download & Install
 
 Download the latest release for your platform from [**Releases**](https://gitee.com/aiexporter/paster/releases).
@@ -372,9 +377,11 @@ Download the latest release for your platform from [**Releases**](https://gitee.
 | Hotkey | Action |
 |--------|--------|
 | `Ctrl + 1` | Show/Hide main window |
-| `Ctrl + 2` | Launch screenshot |
-| `Ctrl + 3` | Quick Insert text |
-| `Ctrl + 4` | Start screen recording |
+| `F1` | Launch screenshot |
+| `Ctrl + 2` | Quick Insert text |
+| `F2` | Start screen recording |
+| `Ctrl + H` | Hide/Show all desktop pins |
+| `F3` | Pin screenshot to desktop |
 | `Esc` | Close screenshot / Close sticky note |
 
 All hotkeys are fully customizable in Settings. You can assign independent hotkeys to 15 system features and 11 utility tools.
@@ -441,7 +448,41 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.3.1 (Latest Release)
+### v1.3.9 (Latest Release)
+
+**🎨 History Appearance Overhaul (12 Styles):**
+- Beyond the original Card Mode and Quick Insert, 10 new history-appearance windows were added — switch freely by scenario.
+- Each appearance has its own configurable parameters (window background / opacity, columns, grouping, thumbnails, etc.), switched contextually in Settings → Appearance per selected style.
+- All 12 appearances are enabled by default; hotkeys can be customized individually in Settings → Appearance.
+
+**⚙️ Settings Panel Reorganization:**
+- Appearance tab revamped: a horizontal "Window Style" preview strip (with thumbnails) at the top; clicking a style card contextually switches that style's adjustable parameters in the "Appearance Config" below.
+
+**📌 Desktop Pin Enhancements:**
+- New opacity slider in the pinned-window right-click menu, adjustable 0~100 in real time.
+- Pins can now be hidden without destroying: right-click menu "Hide", or press the global hotkey `Ctrl + H` to hide/show all pins at once.
+- New tray "Pin" submenu: toggle each pin's visibility individually, with "Hide All" / "Show All".
+
+**🔍 Clipboard Copy-Source Detection:**
+- The source app (app name + process path) is recorded automatically on copy; the Source Cluster appearance groups items by the real source app.
+
+**⌨️ Default Hotkey Adjustments (users who customized hotkeys are unaffected):**
+- Screenshot: `Ctrl+2` → `F1`; Screen Recording: `Ctrl+4` → `F2`; Quick Insert: `Ctrl+3` → `Ctrl+2`.
+- Copy Session no longer occupies `Ctrl+Shift+C` by default (bind it yourself in Settings → Hotkeys).
+- New "Hide/Show Pins" hotkey, default `Ctrl+H`.
+
+**🚀 Performance & Stability:**
+- Source Cluster view now builds progressively in chunks — no freeze when invoking via hotkey with a large history.
+- Calendar Heatmap open speed optimized; Gallery Grid thumbnails lazy-load.
+- Fixed a possible crash when copying images from WeChat and similar apps (now reads the clipboard bitmap natively).
+- Trash self-check on startup: automatically cleans unrecoverable items whose image files are missing.
+
+**🙏 Special Thanks:**
+- Thanks to all users who reported issues and shared feedback — your input was invaluable for this appearance and settings overhaul.
+
+---
+
+### v1.3.1
 
 **🖱️ Batch Clipboard Operations:**
 - New multi-select copy, multi-select paste, sequential copy, sequential paste, and batch delete

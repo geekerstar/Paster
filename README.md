@@ -4,7 +4,7 @@
   <p><strong>轻量 · 高效 · 隐私安全 · 完全免费</strong></p>
   <p>复制过的内容永不丢失 — 剪贴板历史、截图标注、离线 OCR/翻译、桌面便签、实用工具箱，一个工具全搞定</p>
   <p>
-    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.8-brightgreen?style=for-the-badge" alt="立即下载"/></a>
+    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.9-brightgreen?style=for-the-badge" alt="立即下载"/></a>
     &nbsp;
     <a href="#-效果预览"><img src="https://img.shields.io/badge/查看预览-截图-blue?style=for-the-badge" alt="效果预览"/></a>
     &nbsp;
@@ -23,14 +23,14 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows_·_Linux-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.3.8-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.3.9-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/价格-永久免费-success?style=flat-square"/>
     <img src="https://img.shields.io/badge/数据-本地存储-informational?style=flat-square"/>
     <img src="https://gitee.com/aiexporter/paster/badge/star.svg?theme=dark" alt="Gitee Stars"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.8 新版发布：快捷插入全面升级（支持三种点击行为 / 预览模式）、截图双屏修复、悬浮提示统一优化！</strong>
+  <strong>🚀 v1.3.9 新版发布：12 套历史查看外观自由切换、设置面板重组、贴图透明度与一键显隐、复制来源识别！</strong>
 </div>
 
 
@@ -55,9 +55,95 @@
 
 1. **下载安装** — 从 [Releases](https://gitee.com/aiexporter/paster/releases) 获取 Windows 安装包；Linux 用户请 [联系作者](#-下载安装) 获取编译版本
 2. **呼出主窗口** — 按 `Ctrl + 1`（可在「设置 → 快捷键」自定义）
-3. **开始使用** — 正常复制内容（`Ctrl + C`），历史自动保存；需要时搜索过滤，或按 `Ctrl + 3` 快速插入到当前输入框
+3. **开始使用** — 正常复制内容（`Ctrl + C`），历史自动保存；需要时搜索过滤，或按 `Ctrl + 2` 快速插入到当前输入框
 
 > 完整操作说明见软件内 **帮助手册**（系统托盘右键 → 帮助手册），本文档保留各功能的详细操作指引。
+
+---
+
+## 📸 效果预览
+
+<div align="center">
+
+### 🎨 十二种历史查看外观
+
+一套剪贴板历史，十二种观看方式。在「设置 → 外观」Tab 中横向选择窗口样式，点击卡片后下方「外观配置」会联动切换该样式可调参数。所有外观共用统一顶部工具栏（搜索 / 类型筛选 / 截图 / OCR / 录屏 / 网格 / 回收站 / 便签 / 局域网 / 工具箱 / 置顶 / 隐藏），外观窗口支持拖拽移动、边缘缩放、置顶与搜索过滤。
+
+| 卡片模式 Ctrl+1 | 快捷插入 Ctrl+2 |
+|:---:|:---:|
+| ![卡片模式](image/卡片模式.png) | ![快捷插入](image/快捷插入.png) |
+
+| 便签墙 Ctrl+3 | 来源聚类 Ctrl+4 |
+|:---:|:---:|
+| ![便签墙](image/便签墙.png) | ![来源聚类](image/来源聚类.png) |
+
+| 日历热力 Ctrl+5 | 瀑布流墙 Ctrl+6 |
+|:---:|:---:|
+| ![日历热力](image/日历热力.png) | ![瀑布流墙](image/瀑布流墙.png) |
+
+| 图库网格 Ctrl+7 | 焦点轮播 Ctrl+8 |
+|:---:|:---:|
+| ![图库网格](image/图库网格.png) | ![焦点轮播](image/焦点轮播.png) |
+
+| 主从聚焦 Ctrl+9 | 分类看板 Ctrl+0 |
+|:---:|:---:|
+| ![主从聚焦](image/主从聚焦.png) | ![分类看板](image/分类看板.png) |
+
+| 时间轴流 Ctrl+Alt+1 | 智能标签 Ctrl+Alt+2 |
+|:---:|:---:|
+| ![时间轴流](image/时间轴流.png) | ![智能标签](image/智能标签.png) |
+
+
+### 界面与主题
+
+| 浅色主题 | 深色主题 |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="100%" alt="浅色主题"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="100%" alt="深色主题"/> |
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/3%E6%90%9C%E7%B4%A2%E9%AB%98%E4%BA%AE.png" width="80%" alt="搜索高亮"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/10%E7%BD%91%E6%A0%BC%E8%A7%86%E5%9B%BE.png" width="80%" alt="网格视图"/>
+
+### 截图、OCR 与翻译
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/%E6%88%AA%E5%9B%BE%E6%A0%87%E6%B3%A8.png" width="80%" alt="截图标注"/>
+
+| 图片 OCR | 截图 OCR |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%9B%BE%E7%89%87OCR.png" width="100%" alt="图片 OCR"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E6%88%AA%E5%9B%BEOCR.png" width="100%" alt="截图 OCR"/> |
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="截图翻译"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%A1%8C%E9%9D%A2%E8%B4%B4%E5%9B%BE.png" width="80%" alt="桌面贴图"/>
+
+### 效率工具
+
+| 快速插入列表 | 确认插入 |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/12%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC1.png" width="100%" alt="快速插入列表"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/13%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC2.png" width="100%" alt="确认插入"/> |
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E6%A1%8C%E9%9D%A2%E4%BE%BF%E7%AD%BE.png" width="80%" alt="桌面便签"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="桌面悬浮球"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="实用工具箱"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E7%95%8C%E9%9D%A2.png" width="80%" alt="视频录制界面"/>
+
+### 数据管理与协作
+
+| 导入导出 | 回收站 |
+|:---:|:---:|
+| <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.png" width="100%" alt="导入导出"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%9B%9E%E6%94%B6%E7%AB%99.png" width="100%" alt="回收站"/> |
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF.png" width="80%" alt="局域网共享"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/11%E5%8F%B3%E4%B8%8B%E8%A7%92%E9%80%9A%E7%9F%A5.png" width="80%" alt="右下角通知"/>
+
+<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="检查更新"/>
+
+</div>
+
 
 ---
 
@@ -138,19 +224,20 @@
 #### 🎯 全局快捷键
 自定义全局快捷键，随时呼出 Paster 主窗口、启动截图、快速插入或屏幕录制。
 
-**默认快捷键：**
-- `Ctrl + 1` — 显示/隐藏 Paster 主窗口
-- `Ctrl + 2` — 启动截图工具
-- `Ctrl + 3` — 快速插入文本
-- `Ctrl + 4` — 启动屏幕录制
-- `Ctrl + 5` — 快速 OCR 识别
+**默认快捷键（v1.3.9 起，已自定义过的用户不受影响）：**
+- `Ctrl + 1` — 显示/隐藏 Paster 主窗口（卡片模式）
+- `F1` — 启动截图工具
+- `Ctrl + 2` — 快速插入文本
+- `F2` — 启动屏幕录制
+- `Ctrl + H` — 隐藏/显示全部桌面贴图
+- OCR 识别、复制会话、快捷贴图等默认未分配，可在「设置 → 快捷键」自行绑定
 
 **操作方式：** 进入「设置 → 快捷键」Tab，点击对应按钮可自定义快捷键。支持 Ctrl/Alt/Shift + 任意字母键组合，系统会自动检测键位冲突。支持为 15 项系统功能和 11 个实用工具分别绑定独立快捷键。
 
 #### ⌨️ 快速插入
 快速选择历史内容（文本、链接、代码、图片），自动发送到当前正在编辑的输入框中。
 
-**操作方式：** 按 `Ctrl + 3` 弹出快速插入列表。弹窗顶部支持搜索框实时过滤，↑↓ 键导航条目，按 Enter 确认发送。图片条目以 40×40 缩略图展示，按空格键弹出大图预览，松开即关闭。可在「设置 → 通用」中自由搭配需要显示的类型（文本/链接/代码/图片）。弹框支持鼠标拖拽移动位置，支持点击关闭按钮或按 ESC 键关闭。
+**操作方式：** 按 `Ctrl + 2` 弹出快速插入列表。弹窗顶部支持搜索框实时过滤，↑↓ 键导航条目，按 Enter 确认发送。图片条目以 40×40 缩略图展示，按空格键弹出大图预览，松开即关闭。可在「设置 → 外观 → 快捷插入」配置中自由搭配需要显示的类型（文本/链接/代码/图片）。弹框支持鼠标拖拽移动位置，支持点击关闭按钮或按 ESC 键关闭。
 
 #### ⌨️ 快捷输入
 自定义常用短语并绑定全局快捷键，一键将预设文本发送到当前输入框。
@@ -160,7 +247,7 @@
 #### 🏐 桌面悬浮球
 桌面常驻圆形按钮，一键直达常用功能，新内容到达时脉冲闪烁提醒。
 
-**操作方式：** 在「设置 → 通用」中勾选「桌面悬浮球」开启。点击悬浮球展开径向菜单，提供截图、录屏、快速插入、OCR 识别、新建便签、显示/隐藏主窗口 6 个快捷入口。拖拽可移动位置，释放后自动吸附屏幕边缘。5 秒无操作自动半透明，鼠标悬停恢复。右键弹出菜单可关闭悬浮球或快速打开设置。支持拖拽文本/文件到悬浮球，自动置入剪贴板。可在「设置 → 通用」中调节悬浮球大小。
+**操作方式：** 在「设置 → 外观 → 桌面悬浮组件」中勾选开启。点击悬浮球展开径向菜单，提供截图、录屏、快速插入、OCR 识别、新建便签、显示/隐藏主窗口 6 个快捷入口。拖拽可移动位置，释放后自动吸附屏幕边缘。5 秒无操作自动半透明，鼠标悬停恢复。右键弹出菜单可关闭悬浮球或快速打开设置。支持拖拽文本/文件到悬浮球，自动置入剪贴板。可在「设置 → 外观」中调节悬浮球大小。
 
 #### 📍 窗口定位
 Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
@@ -169,7 +256,7 @@ Paster 主窗口支持多种预设位置，灵活适应不同工作布局。
 - ▸ 底部居中（默认）  ▸ 顶部居中  ▸ 左侧居中
 - ▸ 右侧居中  ▸ 屏幕中央  ▸ 跟随鼠标  ▸ 自定义位置
 
-支持自定义位置记忆，关闭后下次打开在相同位置。
+支持自定义位置记忆，关闭后下次打开在相同位置。v1.3.9 起「窗口位置」设置对全部 12 套历史查看外观窗口统一生效。
 
 #### 🔔 右下角通知
 窗口隐藏时，新复制的内容会在桌面右下角弹出通知提醒。
@@ -196,7 +283,7 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 全屏截图 + 矩形/椭圆/箭头/笔刷/文字/马赛克/高亮笔/橡皮擦等丰富标注工具 + 撤销/重做 + 颜色选择。
 
 **操作方式：**
-- **方式一：** 按全局快捷键 `Ctrl + 2`（可在设置中自定义）
+- **方式一：** 按全局快捷键 `F1`（可在设置中自定义）
 - **方式二：** 在 Paster 主窗口工具栏点击「📷」截图按钮
 - **方式三：** 主窗口工具栏点击 OCR 按钮，直接框选区域进行文字识别
 
@@ -219,14 +306,20 @@ Paster 常驻系统托盘，后台运行不打扰，需要时一键呼出。
 - ▸ 拖拽边缘调整大小
 - ▸ 滚轮缩放内容
 - ▸ 右键菜单选择旋转/翻转
+- ▸ 右键菜单拖动「不透明度」滑块，0~100 实时调节贴图透明度
+- ▸ 右键菜单「隐藏」暂时隐藏贴图（不销毁，可随时恢复）
 - ▸ 使用标注工具继续编辑
 - ▸ 点击关闭按钮移除贴图
+
+贴图显隐管理（v1.3.9 新增）：
+- ▸ 按全局快捷键 `Ctrl + H` 一键隐藏/显示全部贴图
+- ▸ 系统托盘右键 →「贴图」子菜单：逐个勾选显示/隐藏，或「全部隐藏」「全部显示」
 
 #### 🎬 屏幕录制
 录制屏幕区域，支持 GIF / MP4 / WebM 格式，可选择音频、光标、硬件加速等。
 
 **操作方式：**
-- **方式一：** 按全局快捷键 `Ctrl + 4`（可在设置中自定义）
+- **方式一：** 按全局快捷键 `F2`（可在设置中自定义）
 - **方式二：** 在系统托盘右键菜单中选择「开始录制」
 
 录制前在「设置 → 录屏」Tab 中可调整以下参数：
@@ -265,7 +358,7 @@ Paster 内置 **双 OCR 引擎**（Windows），可在「设置 → OCR」Tab �
   - ▸ 截图完成后，点击工具栏中的「OCR」按钮
   - ▸ 在图片预览窗口中点击「OCR」按钮
   - ▸ 在桌面贴图上右键 → 「OCR 识别」
-  - ▸ 按 `Ctrl + 5` 快速 OCR 捕捉
+  - ▸ 可在「设置 → 快捷键」为「OCR 识别」绑定全局快捷键，一键框选识别
 
 识别结果会显示在弹出窗口中，可一键复制，支持同时打开多个结果弹窗，结果弹窗支持拖拽、缩放、固定到桌面。
 
@@ -367,20 +460,20 @@ Paster 内置 **双 OCR 引擎**（Windows），可在「设置 → OCR」Tab �
 
 **操作方式：**
 - **方式一：** 在 Paster 主窗口工具栏点击「🌙/☀️」主题切换按钮
-- **方式二：** 进入「设置 → 通用」Tab，在「主题」单选框中选择（浅色/深色/跟随系统）
+- **方式二：** 进入「设置 → 外观」Tab，在「主题」单选框中选择（浅色/深色/跟随系统）
 
 切换即时生效，无需重启应用。深色主题还会同步应用到系统托盘菜单、截图工具等所有界面。
 
 #### 🎨 卡片自定义
-自由调整剪贴板卡片的外观：尺寸、透明度、对齐方式、点击行为。
+自由调整剪贴板卡片的外观：尺寸、窗口透明度、对齐方式、点击行为。
 
-**操作方式：** 进入「设置 → 卡片」Tab：
+**操作方式：** 进入「设置 → 外观」Tab，在窗口样式中选中「卡片模式」，下方外观配置中调整：
 - ▸ 卡片尺寸：可选 120px / 160px / 200px / 240px
-- ▸ 卡片透明度：50% ~ 100% 可调
-- ▸ 卡片对齐：支持靠左/居中/中部向右/中部向左/中部向两侧/靠右 六种方式
+- ▸ 窗口透明度：0 ~ 100 滑块无级调节（对所有外观统一生效）
+- ▸ 卡片对齐：居左 / 居中 / 居右
 - ▸ 点击行为：经典模式（单击复制，双击粘贴）/ 单击即贴 / 单击预览
 
-所有调整实时生效，立即预览效果。
+所有调整实时生效，立即预览效果。其余 11 套外观同样在此处按样式联动配置各自参数。
 
 #### 🌐 语言切换
 支持中文和英文界面，满足不同语言用户需求。
@@ -399,97 +492,13 @@ Paster 内置 **双 OCR 引擎**（Windows），可在「设置 → OCR」Tab �
 
 ---
 
-## 📸 效果预览
-
-<div align="center">
-
-### 界面与主题
-
-| 浅色主题 | 深色主题 |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/1%E6%B5%85%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="100%" alt="浅色主题"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/2%E6%B7%B1%E8%89%B2%E4%B8%BB%E9%A2%98.png" width="100%" alt="深色主题"/> |
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/3%E6%90%9C%E7%B4%A2%E9%AB%98%E4%BA%AE.png" width="80%" alt="搜索高亮"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/10%E7%BD%91%E6%A0%BC%E8%A7%86%E5%9B%BE.png" width="80%" alt="网格视图"/>
-
-### 截图、OCR 与翻译
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/%E6%88%AA%E5%9B%BE%E6%A0%87%E6%B3%A8.png" width="80%" alt="截图标注"/>
-
-| 图片 OCR | 截图 OCR |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/5%E5%9B%BE%E7%89%87OCR.png" width="100%" alt="图片 OCR"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/6%E6%88%AA%E5%9B%BEOCR.png" width="100%" alt="截图 OCR"/> |
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/21%E6%88%AA%E5%9B%BE%E7%BF%BB%E8%AF%91.png" width="80%" alt="截图翻译"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/4%E6%A1%8C%E9%9D%A2%E8%B4%B4%E5%9B%BE.png" width="80%" alt="桌面贴图"/>
-
-### 效率工具
-
-| 快速插入列表 | 确认插入 |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/12%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC1.png" width="100%" alt="快速插入列表"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/13%E5%BF%AB%E9%80%9F%E6%8F%92%E5%85%A5%E6%96%87%E6%9C%AC2.png" width="100%" alt="确认插入"/> |
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/17%E6%A1%8C%E9%9D%A2%E4%BE%BF%E7%AD%BE.png" width="80%" alt="桌面便签"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/19%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E6%8C%89%E9%92%AE.png" width="80%" alt="桌面悬浮球"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/18%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E7%AE%B1.png" width="80%" alt="实用工具箱"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E8%A7%86%E9%A2%91%E5%BD%95%E5%88%B6%E7%95%8C%E9%9D%A2.png" width="80%" alt="视频录制界面"/>
-
-### 数据管理与协作
-
-| 导入导出 | 回收站 |
-|:---:|:---:|
-| <img src="https://gitee.com/aiexporter/paster/raw/master/image/8%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.png" width="100%" alt="导入导出"/> | <img src="https://gitee.com/aiexporter/paster/raw/master/image/9%E5%9B%9E%E6%94%B6%E7%AB%99.png" width="100%" alt="回收站"/> |
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/16%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B1%E4%BA%AB%E5%89%AA%E8%B4%B4%E6%9D%BF.png" width="80%" alt="局域网共享"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/11%E5%8F%B3%E4%B8%8B%E8%A7%92%E9%80%9A%E7%9F%A5.png" width="80%" alt="右下角通知"/>
-
-<img src="https://gitee.com/aiexporter/paster/raw/master/image/20%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0.png" width="80%" alt="检查更新"/>
-
-</div>
-
-## 🎨 十二种历史查看外观
-
-一套剪贴板历史，十二种观看方式。在「设置 → 外观」Tab 中横向选择窗口样式，点击卡片后下方「外观配置」会联动切换该样式可调参数。所有外观共用统一顶部工具栏（搜索 / 类型筛选 / 截图 / OCR / 录屏 / 网格 / 回收站 / 便签 / 局域网 / 工具箱 / 置顶 / 隐藏），外观窗口支持拖拽移动、边缘缩放、置顶与搜索过滤。
-
-| 卡片模式 Ctrl+1 | 快捷插入 Ctrl+3 |
-|:---:|:---:|
-| ![卡片模式](image/卡片模式.png) | ![快捷插入](image/快捷插入.png) |
-
-| 时间轴流 Ctrl+2 | 分类看板 Ctrl+4 |
-|:---:|:---:|
-| ![时间轴流](image/时间轴流.png) | ![分类看板](image/分类看板.png) |
-
-| 主从聚焦 Ctrl+5 | 瀑布流墙 Ctrl+6 |
-|:---:|:---:|
-| ![主从聚焦](image/主从聚焦.png) | ![瀑布流墙](image/瀑布流墙.png) |
-
-| 便签墙 Ctrl+7 | 日历热力 Ctrl+8 |
-|:---:|:---:|
-| ![便签墙](image/便签墙.png) | ![日历热力](image/日历热力.png) |
-
-| 来源聚类 Ctrl+9 | 智能标签 Ctrl+10 |
-|:---:|:---:|
-| ![来源聚类](image/来源聚类.png) | ![智能标签](image/智能标签.png) |
-
-| 图库网格 Ctrl+11 | 焦点轮播 Ctrl+12 |
-|:---:|:---:|
-| ![图库网格](image/图库网格.png) | ![焦点轮播](image/焦点轮播.png) |
-
----
-
 ## 📥 下载安装
 
 从 [**Releases**](https://gitee.com/aiexporter/paster/releases) 下载最新版本。
 
 | 平台 | 获取方式 | 说明 |
 |------|----------|------|
-| **Windows** ⭐ | `PasterInstallerV1.3.8.exe` | 主力维护平台，下载安装包后运行即可 |
+| **Windows** ⭐ | `PasterInstallerV1.3.9.exe` | 主力维护平台，下载安装包后运行即可 |
 | **Linux** | 联系作者获取 | 支持 Ubuntu 24.04+ x86_64，需联系作者按需编译分发 |
 
 **系统要求：**
@@ -510,33 +519,31 @@ Paster 内置 **双 OCR 引擎**（Windows），可在「设置 → OCR」Tab �
 
 | 快捷键 | 功能 |
 |--------|------|
-| `Ctrl + 1` | 显示/隐藏主窗口 |
-| `Ctrl + 2` | 启动截图 |
-| `Ctrl + 3` | 快速插入文本 |
-| `Ctrl + 4` | 启动屏幕录制 |
-| `Ctrl + 5` | 快速 OCR 识别 |
+| `F1` | 启动截图 |
+| `F2` | 启动屏幕录制 |
+| `Ctrl + H` | 隐藏/显示全部桌面贴图 |
 | `Esc` | 关闭截图 / 关闭贴图 |
 
-所有快捷键均可在「设置 → 快捷键」自定义修改，支持为 15 项系统功能和 11 个实用工具分别绑定独立快捷键。
+OCR 识别、复制会话、快捷贴图等默认未分配快捷键。所有快捷键均可在「设置 → 快捷键」自定义修改，支持为 15 项系统功能和 11 个实用工具分别绑定独立快捷键。
 
 ### 历史查看外观快捷键
 
 | 快捷键 | 外观样式 |
 |--------|----------|
-| `Ctrl + 1` | 卡片模式（默认开启） |
-| `Ctrl + 2` | 时间轴流 |
-| `Ctrl + 3` | 快捷插入（默认开启） |
-| `Ctrl + 4` | 分类看板 |
-| `Ctrl + 5` | 主从聚焦 |
+| `Ctrl + 1` | 卡片模式（主窗口） |
+| `Ctrl + 2` | 快捷插入 |
+| `Ctrl + 3` | 便签墙 |
+| `Ctrl + 4` | 来源聚类 |
+| `Ctrl + 5` | 日历热力 |
 | `Ctrl + 6` | 瀑布流墙 |
-| `Ctrl + 7` | 便签墙 |
-| `Ctrl + 8` | 日历热力 |
-| `Ctrl + 9` | 来源聚类 |
-| `Ctrl + 10` | 智能标签 |
-| `Ctrl + 11` | 图库网格 |
-| `Ctrl + 12` | 焦点轮播 |
+| `Ctrl + 7` | 图库网格 |
+| `Ctrl + 8` | 焦点轮播 |
+| `Ctrl + 9` | 主从聚焦 |
+| `Ctrl + 0` | 分类看板 |
+| `Ctrl + Alt + 1` | 时间轴流 |
+| `Ctrl + Alt + 2` | 智能标签 |
 
-外观快捷键可在「设置 → 外观」Tab 中为每个样式单独自定义；卡片模式与快捷插入默认开启，其余 10 套在该 Tab 勾选启用。
+12 套外观默认全部启用，外观快捷键可在「设置 → 外观」Tab 中为每个样式单独自定义或停用。
 
 ---
 
@@ -636,34 +643,38 @@ chmod +x Paster-x86_64.AppImage
 
 ### v1.3.9（最新版本）
 
-**🎨 历史查看外观全面升级（12 套样式）：**
+**🎨 剪贴板历史外观全面升级（12 套样式）：**
 
-- 在原有「卡片模式（Ctrl+1）」与「快捷插入（Ctrl+3）」之外，新增 10 套历史查看外观，按场景自由切换：
-  - 时间轴流（Ctrl+2）：按天分组的时间线，支持展开全文、按天折叠
-  - 分类看板（Ctrl+4）：按类型分为多列看板，便于归类整理
-  - 主从聚焦（Ctrl+5）：左侧列表 + 右侧详情的主从布局
-  - 瀑布流墙（Ctrl+6）：多列瀑布流，图片自适应高度
-  - 便签墙（Ctrl+7）：便签化卡片墙，支持倾斜角度
-  - 日历热力（Ctrl+8）：日历热力图，按日期深浅展示活跃度
-  - 来源聚类（Ctrl+9）：按来源应用聚类的列表
-  - 智能标签（Ctrl+10）：自动抽取标签云的流式布局
-  - 图库网格（Ctrl+11）：缩略图网格，懒加载提升大图量性能
-  - 焦点轮播（Ctrl+12）：3D 纵深轮播，聚焦单条内容
+- 在原有「卡片模式」与「快捷插入」之外，新增 10 套历史查看外观，按场景自由切换：
 - 每套外观支持独立可调参数（窗口背景 / 透明度、列数、分组、缩略图等），在「设置 → 外观」中按所选样式联动切换
-- 所有外观共用统一顶部工具栏（搜索 / 类型筛选 / 截图 / OCR / 录屏 / 网格 / 回收站 / 便签 / 局域网 / 工具箱 / 置顶 / 隐藏），交互一致
-- 外观窗口支持拖拽移动与边缘缩放、置顶、搜索过滤
+- 12 套外观默认全部启用，快捷键可在「设置 → 外观」中逐一自定义
 
 **⚙️ 设置面板重组：**
 
-- 外观 Tab 顶部新增「主题」与「桌面悬浮组件」分组，主题与悬浮启动器从通用 Tab 迁出
-- 通用 Tab 重组为「启动与系统 / 主面板与通知 / 历史与存储」三组
-- 「窗口位置」设置现在对所有外观窗口生效（不再各自写死居中）
-- 快捷插入类型筛选（文本 / 链接 / 代码 / 图片）迁入快捷插入外观配置
+- 外观 Tab 重构：顶部横向「窗口样式」预览带（带缩略图），点击样式卡片后下方「外观配置」联动切换该样式的可调参数
 
-**📊 其他改进：**
+**📌 桌面贴图增强：**
 
-- 统计分析弹窗初始位置改为屏幕居中（原偏左 40px）
-- 窗口样式区新增「抢先测试版」提示，引导用户在「反馈」页扫码反馈
+- 贴图右键菜单新增「不透明度」滑块，0~100 实时调节
+- 贴图支持隐藏而不销毁：右键菜单「隐藏」，或按全局快捷键 Ctrl+H 一键隐藏 / 显示全部贴图
+- 系统托盘新增「贴图」子菜单：逐个勾选显示 / 隐藏，支持「全部隐藏」「全部显示」
+
+**🔍 复制来源识别：**
+
+- 复制时自动记录来源应用（应用名 + 进程路径），「来源聚类」外观按真实来源应用分组展示
+
+**⌨️ 默认快捷键调整（已自定义过快捷键的用户不受影响）：**
+
+- 截图：Ctrl+2 → F1；录屏：Ctrl+4 → F2；快捷插入：Ctrl+3 → Ctrl+2
+- 复制会话默认不再占用 Ctrl+Shift+C（可在「设置 → 快捷键」自行绑定）
+- 新增「隐藏/显示贴图」快捷键，默认 Ctrl+H
+
+**🚀 性能与稳定性：**
+
+- 来源聚类视图改为分批渐进构建，大历史量下热键唤起不再卡顿
+- 日历热力打开速度优化；图库网格缩略图懒加载
+- 修复从微信等应用复制图片时可能崩溃的问题（改为原生方式读取剪贴板位图）
+- 回收站启动自检：自动清理图片文件已丢失的不可恢复条目
 
 **🙏 感谢反馈：**
 
