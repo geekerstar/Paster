@@ -11,13 +11,13 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Platform-Windows-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/Version-1.3.9-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/Version-1.4.0-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/License-GPLv3-orange?style=flat-square"/>
   </p>
 </div>
 
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.9 Released: 12 new History Appearance windows, Settings panel reorganization, Desktop Pin opacity & hide, clipboard copy-source detection, default hotkey adjustments!</strong>
+  <strong>🚀 v1.4.0 Released: Customizable toolbar (drag-and-drop ordering / show-hide / separators), configurable tray left-click action, Select All (Ctrl+A) in Card Mode, revamped Sponsor/Feedback/About pages!</strong>
 </div>
 
 <div align="center" style="background:#fffbe6;border:1px solid #ffe58f;border-radius:8px;padding:16px 20px;margin:16px 0;">
@@ -448,7 +448,36 @@ You can also double-click the file and select "Execute".
 
 ## 📜 Changelog
 
-### v1.3.9 (Latest Release)
+### v1.4.0 (Latest Release)
+
+**🧰 Customizable Toolbar (Settings -> General):**
+- The top toolbar shared by all 12 appearances is now fully customizable: choose which buttons to show and in what order; changes sync to every appearance window in real time.
+- WYSIWYG "toolbar preview": drag an icon from the candidate area below to enable it; drag icons inside the toolbar to reorder (a blue indicator shows the drop position).
+- Toolbar configurations saved by older versions are automatically migrated with the new buttons merged in -- no manual reset needed.
+
+**🖱️ Configurable Tray Left-Click:**
+- New "Tray left-click action" option in Settings -> General -> Startup & System: choose any of the 12 appearances to open on tray icon left-click (Card Mode remains the default).
+
+**✅ Card Mode Batch Operation Enhancements:**
+- New "Select All" toolbar button to select all visible cards at once; Ctrl+A shortcut also supported.
+
+**⚙️ Revamped Sponsor / Feedback / About Pages in Settings:**
+- Card-style layout rebuild with a brand-new icon set, fully adapted to both light and dark themes.
+
+**📷 Screenshot OCR Workflow Improvement:**
+- Clicking "Copy & Close" or "x" on the OCR result window now also exits the screenshot overlay, leaving no residual selection or mask ("Copy" alone still keeps both open).
+
+**🎨 UI & Stability:**
+- Fixed tooltips and context menus rendering with dark backgrounds (unreadable text) under the light theme.
+- Fixed Card-Mode-only controls (type filter, batch filter, etc.) occasionally appearing detached on other appearances' toolbars.
+- The statistics button now uses a cleaner line-chart icon; the Sticky Note Manager gets a brand-new icon clearly distinguishable from Grid View.
+
+**🙏 Thanks:**
+- Thanks to everyone who reported issues and shared feedback.
+
+---
+
+### v1.3.9
 
 **🎨 History Appearance Overhaul (12 Styles):**
 - Beyond the original Card Mode and Quick Insert, 10 new history-appearance windows were added — switch freely by scenario.

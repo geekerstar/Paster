@@ -4,7 +4,7 @@
   <p><strong>轻量 · 高效 · 隐私安全 · 完全免费</strong></p>
   <p>复制过的内容永不丢失 — 剪贴板历史、截图标注、离线 OCR/翻译、桌面便签、实用工具箱，一个工具全搞定</p>
   <p>
-    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.3.9-brightgreen?style=for-the-badge" alt="立即下载"/></a>
+    <a href="https://gitee.com/aiexporter/paster/releases"><img src="https://img.shields.io/badge/立即下载-v1.4.0-brightgreen?style=for-the-badge" alt="立即下载"/></a>
     &nbsp;
     <a href="#-效果预览"><img src="https://img.shields.io/badge/查看预览-截图-blue?style=for-the-badge" alt="效果预览"/></a>
     &nbsp;
@@ -23,14 +23,14 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/平台-Windows_·_Linux-blue?style=flat-square"/>
-    <img src="https://img.shields.io/badge/版本-1.3.9-green?style=flat-square"/>
+    <img src="https://img.shields.io/badge/版本-1.4.0-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/价格-永久免费-success?style=flat-square"/>
     <img src="https://img.shields.io/badge/数据-本地存储-informational?style=flat-square"/>
     <img src="https://gitee.com/aiexporter/paster/badge/star.svg?theme=dark" alt="Gitee Stars"/>
   </p>
 </div>
 <div align="center" style="background-color:#fff3cd;border:1px solid #ffc107;border-radius:6px;padding:10px 16px;margin:12px 0;">
-  <strong>🚀 v1.3.9 新版发布：12 套历史查看外观自由切换、设置面板重组、贴图透明度与一键显隐、复制来源识别！</strong>
+  <strong>🚀 v1.4.0 新版发布：工具栏按钮自定义（拖拽排序 / 显隐）、托盘左键单击行为可配置、卡片模式全选（Ctrl+A）、设置窗口赞助/反馈/关于页全新改版！</strong>
 </div>
 
 
@@ -498,7 +498,7 @@ Paster 内置 **双 OCR 引擎**（Windows），可在「设置 → OCR」Tab �
 
 | 平台 | 获取方式 | 说明 |
 |------|----------|------|
-| **Windows** ⭐ | `PasterInstallerV1.3.9.exe` | 主力维护平台，下载安装包后运行即可 |
+| **Windows** ⭐ | `PasterInstallerV1.4.0.exe` | 主力维护平台，下载安装包后运行即可 |
 | **Linux** | 联系作者获取 | 支持 Ubuntu 24.04+ x86_64，需联系作者按需编译分发 |
 
 **系统要求：**
@@ -641,7 +641,43 @@ chmod +x Paster-x86_64.AppImage
 
 ## 📜 更新日志
 
-### v1.3.9（最新版本）
+### v1.4.0（最新版本）
+
+**🧰 工具栏自定义（设置 → 通用）：**
+
+- 12 套外观共用的顶部工具栏支持完全自定义：自由决定显示哪些按钮、按什么顺序排列，改动实时同步到所有外观窗口
+- 「模拟工具栏」所见即所得：从下方候选区拖入图标即启用，工具栏内拖拽图标即可排序（蓝色插入指示线提示落点）
+- 老版本已保存的工具栏配置自动兼容并合入新增按钮，无需手动重置
+
+**🖱️ 托盘左键单击可自定义：**
+
+- 「设置 → 通用 → 启动与系统」新增「托盘左键单击启动」：托盘图标左键单击唤起的窗口可从 12 套外观中任选（默认仍为卡片模式）
+
+**✅ 卡片模式批量操作增强：**
+
+- 工具栏新增「全选」按钮，一键选中当前全部可见卡片；同时支持快捷键 Ctrl+A
+
+**⚙️ 设置窗口「赞助 / 反馈 / 关于」三个页面全新改版：**
+
+- 卡片式布局重构，全套新图标，深浅主题完整适配
+
+**📷 截图 OCR 体验优化：**
+
+- OCR 识别结果窗口点击「复制并关闭」或「×」时，同步退出截图界面，不再残留选区与遮罩（仅点「复制」仍保留结果窗口和截图）
+
+**🎨 界面与稳定性：**
+
+- 修复浅色主题下悬浮提示与右键菜单显示为黑底、文字看不清的问题
+- 修复卡片模式专属控件（类型筛选、批次筛选等）可能游离显示在其他外观工具栏上的问题
+- 统计按钮图标改为简洁折线样式；便签管理面板启用全新图标，与网格浏览明确区分
+
+**🙏 感谢反馈：**
+
+- 感谢所有反馈问题及意见的用户
+
+---
+
+### v1.3.9
 
 **🎨 剪贴板历史外观全面升级（12 套样式）：**
 
